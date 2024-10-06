@@ -1,0 +1,47 @@
+.procesos-list {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.procesos-ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.proceso-item {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #f9f9f9;
+}
+
+.proceso-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.proceso-column {
+  flex: 1;
+  margin-right: 10px;
+  text-align: left;
+}
+
+.proceso-column p {
+  margin: 5px 0;
+}
+
+.proceso-item:last-child {
+  margin-right: 0;
+}
