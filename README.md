@@ -17,7 +17,7 @@ Esta aplicación web permite a los usuarios buscar y verificar si tienen proceso
 
 Esta aplicación está desplegada en **GitHub Pages** y puedes acceder a ella en el siguiente enlace:
 
-🔗 [Enlace a la herramienta](https://<tu-usuario>.github.io/<nombre-repo>)
+🔗 [Enlace a la herramienta](https://marcospimienta.github.io/lawsuit-tracker/)
 
 ## 📦 Instalación local
 
@@ -35,7 +35,7 @@ Ejecuta la aplicación en modo de desarrollo:
 ```npm start```
 La aplicación se abrirá en http://localhost:3000.
 
-📤 Despliegue
+## 📤 Despliegue
 Este proyecto utiliza GitHub Pages para el despliegue. Para hacer un nuevo despliegue, ejecuta:
 
 ```npm run deploy```
