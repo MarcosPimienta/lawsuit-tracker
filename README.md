@@ -1,46 +1,61 @@
-# Getting Started with Create React App
+Herramienta de Búsqueda de Procesos Civiles 📜
+Esta aplicación web permite a los usuarios buscar y verificar si tienen procesos civiles en su contra iniciados por Coderise International o Fundación Coderise. Es una herramienta creada para facilitar el acceso a la información legal, dado que muchas personas pueden no estar enteradas de los procesos judiciales en su contra debido a las notificaciones deficientes.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🎯 Funcionalidades
+🔍 Búsqueda rápida por nombre de los sujetos procesales.
+🗂 Filtrado avanzado por fechas de radicación y última actuación.
+📅 Paginación para navegar cómodamente entre los procesos.
+📄 Información clara sobre cada proceso:
+ID del proceso.
+Fecha de radicación.
+Última actuación.
+Despacho, departamento y sujetos procesales.
+🚀 Despliegue en GitHub Pages
+Esta aplicación está desplegada en GitHub Pages y puedes acceder a ella en el siguiente enlace:
 
-## Available Scripts
+🔗 Enlace a la herramienta
 
-In the project directory, you can run:
+📦 Instalación local
+Si deseas clonar este proyecto y ejecutarlo localmente, sigue los siguientes pasos:
 
-### `npm start`
+Clona el repositorio:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+bash
+```git clone https://github.com/<tu-usuario>/<nombre-repo>.git```
+Ve a la carpeta del proyecto:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+bash
 
-### `npm test`
+```cd <nombre-repo>```
+Instala las dependencias:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+bash
+```npm install```
+Ejecuta la aplicación en modo de desarrollo:
 
-### `npm run build`
+bash
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```npm start```
+La aplicación se abrirá en http://localhost:3000.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+📤 Despliegue
+Este proyecto utiliza GitHub Pages para el despliegue. Para hacer un nuevo despliegue, ejecuta:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+bash
 
-### `npm run eject`
+```npm run deploy```
+Este comando generará los archivos estáticos y los subirá automáticamente a la rama gh-pages.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+⚙️ Tecnologías utilizadas
+React: Librería para construir interfaces de usuario.
+TypeScript: Superconjunto de JavaScript que añade tipado estático.
+GitHub Pages: Plataforma de hosting gratuita para proyectos.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🤝 Contribuciones
+Las contribuciones son bienvenidas. Si tienes sugerencias o mejoras, por favor abre un issue o envía un pull request.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+🛡️ Licencia
+Este proyecto está licenciado bajo la Licencia MIT. Puedes consultar más detalles en el archivo LICENSE.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+👥 Agradecimientos
+Agradecemos especialmente a luismvargasg por su colaboración en la creación de esta herramienta.
