@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Pagination from './Pagination';
+import DataFilters from './DataFilters';
 import { getAllProcesos, Proceso } from '../services/dataService';
-import '../styles/ProcesosList.css'; // Importar estilos
+import '../styles/ProcesosList.css';
 
 const ProcesosList: React.FC = () => {
   const [procesos, setProcesos] = useState<Proceso[]>([]);
@@ -10,7 +11,7 @@ const ProcesosList: React.FC = () => {
 
   // Paginación local
   const [currentPage, setCurrentPage] = useState<number>(1);
-  const [procesosPerPage] = useState<number>(10); // Cantidad de procesos por página
+  const [procesosPerPage] = useState<number>(10);
 
   // Obtener los procesos desde el API cuando el componente se monta
   useEffect(() => {
@@ -24,22 +25,42 @@ const ProcesosList: React.FC = () => {
       });
   }, []);
 
-  // Filtrar los procesos cuando el usuario escribe en la barra de búsqueda
+  // Función para filtrar los procesos cuando el usuario escribe en la barra de búsqueda
+  const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setSearchTerm(e.target.value);
+  };
+
+  // Filtrar por términos de búsqueda
   useEffect(() => {
     if (searchTerm === '') {
-      setFilteredProcesos(procesos); // Si no hay término de búsqueda, mostramos todos
+      setFilteredProcesos(procesos);
     } else {
       const filtered = procesos.filter((proceso) =>
         proceso.sujetosProcesales.toLowerCase().includes(searchTerm.toLowerCase())
       );
       setFilteredProcesos(filtered);
-      setCurrentPage(1); // Resetear la página actual al filtrar
+      setCurrentPage(1); // Resetear la página al filtrar
     }
   }, [searchTerm, procesos]);
 
-  // Función para manejar el cambio en la barra de búsqueda
-  const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setSearchTerm(e.target.value);
+  // Funciones para ordenar por fecha de radicación
+  const handleSortByFechaRadicacion = (order: string) => {
+    const sorted = [...filteredProcesos].sort((a, b) => {
+      const dateA = new Date(a.fechaProceso).getTime();
+      const dateB = new Date(b.fechaProceso).getTime();
+      return order === 'asc' ? dateA - dateB : dateB - dateA;
+    });
+    setFilteredProcesos(sorted);
+  };
+
+  // Funciones para ordenar por última actuación
+  const handleSortByUltimaActuacion = (order: string) => {
+    const sorted = [...filteredProcesos].sort((a, b) => {
+      const dateA = new Date(a.fechaUltimaActuacion).getTime();
+      const dateB = new Date(b.fechaUltimaActuacion).getTime();
+      return order === 'asc' ? dateA - dateB : dateB - dateA;
+    });
+    setFilteredProcesos(sorted);
   };
 
   // Obtener los procesos de la página actual
@@ -54,13 +75,12 @@ const ProcesosList: React.FC = () => {
     <div className="procesos-list">
       <h1>Lista de Procesos</h1>
 
-      {/* Barra de búsqueda */}
-      <input
-        type="text"
-        placeholder="Buscar por nombre"
-        value={searchTerm}
-        onChange={handleSearchChange}
-        className="search-input"
+      {/* Componente DataFilters con barra de búsqueda y filtros */}
+      <DataFilters
+        searchTerm={searchTerm}
+        handleSearchChange={handleSearchChange}
+        handleSortByFechaRadicacion={handleSortByFechaRadicacion}
+        handleSortByUltimaActuacion={handleSortByUltimaActuacion}
       />
 
       {/* Mostrar los procesos filtrados de la página actual */}
