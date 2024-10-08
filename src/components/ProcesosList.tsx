@@ -1,36 +1,34 @@
 import React, { useState, useEffect } from 'react';
 import Pagination from './Pagination';
 import DataFilters from './DataFilters';
-import { getAllProcesos, Proceso } from '../services/dataService';
+import { getAllProcesos, fetchActuaciones, Proceso, Actuacion } from '../services/dataService';
 import '../styles/ProcesosList.css';
 
 const ProcesosList: React.FC = () => {
   const [procesos, setProcesos] = useState<Proceso[]>([]);
   const [filteredProcesos, setFilteredProcesos] = useState<Proceso[]>([]);
   const [searchTerm, setSearchTerm] = useState<string>('');
+  const [expandedProceso, setExpandedProceso] = useState<number | null>(null);
+  const [actuaciones, setActuaciones] = useState<{ [key: number]: Actuacion[] }>({});
 
-  // Paginación local
   const [currentPage, setCurrentPage] = useState<number>(1);
   const [procesosPerPage] = useState<number>(10);
 
-  // Obtener los procesos desde el API cuando el componente se monta
   useEffect(() => {
     getAllProcesos()
       .then((data) => {
         setProcesos(data);
-        setFilteredProcesos(data); // Inicialmente mostramos todos
+        setFilteredProcesos(data);
       })
       .catch((error) => {
         console.error('Error al obtener los procesos:', error);
       });
   }, []);
 
-  // Función para filtrar los procesos cuando el usuario escribe en la barra de búsqueda
   const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearchTerm(e.target.value);
   };
 
-  // Filtrar por términos de búsqueda
   useEffect(() => {
     if (searchTerm === '') {
       setFilteredProcesos(procesos);
@@ -39,75 +37,86 @@ const ProcesosList: React.FC = () => {
         proceso.sujetosProcesales.toLowerCase().includes(searchTerm.toLowerCase())
       );
       setFilteredProcesos(filtered);
-      setCurrentPage(1); // Resetear la página al filtrar
+      setCurrentPage(1);
     }
   }, [searchTerm, procesos]);
 
-  // Funciones para ordenar por fecha de radicación
-  const handleSortByFechaRadicacion = (order: string) => {
-    const sorted = [...filteredProcesos].sort((a, b) => {
-      const dateA = new Date(a.fechaProceso).getTime();
-      const dateB = new Date(b.fechaProceso).getTime();
-      return order === 'asc' ? dateA - dateB : dateB - dateA;
-    });
-    setFilteredProcesos(sorted);
+  // Manejar la expansión de los procesos
+  const handleExpand = async (idProceso: number) => {
+    if (expandedProceso === idProceso) {
+      setExpandedProceso(null); // Colapsar si se vuelve a hacer clic
+    } else {
+      if (!actuaciones[idProceso]) {
+        const fetchedActuaciones = await fetchActuaciones(idProceso);
+        setActuaciones((prev) => ({
+          ...prev,
+          [idProceso]: fetchedActuaciones,
+        }));
+      }
+      setExpandedProceso(idProceso); // Expandir el nuevo proceso
+    }
   };
 
-  // Funciones para ordenar por última actuación
-  const handleSortByUltimaActuacion = (order: string) => {
-    const sorted = [...filteredProcesos].sort((a, b) => {
-      const dateA = new Date(a.fechaUltimaActuacion).getTime();
-      const dateB = new Date(b.fechaUltimaActuacion).getTime();
-      return order === 'asc' ? dateA - dateB : dateB - dateA;
-    });
-    setFilteredProcesos(sorted);
-  };
-
-  // Obtener los procesos de la página actual
   const indexOfLastProceso = currentPage * procesosPerPage;
   const indexOfFirstProceso = indexOfLastProceso - procesosPerPage;
-  const currentProcesos = filteredProcesos.slice(indexOfFirstProceso, indexOfLastProceso);
+  const currentProcesos = filteredProcesos.slice(indexOfFirstProceso, indexOfFirstProceso + procesosPerPage);
 
-  // Cambiar de página
   const paginate = (pageNumber: number) => setCurrentPage(pageNumber);
 
   return (
     <div className="procesos-list">
       <h1>Lista de Procesos</h1>
 
-      {/* Componente DataFilters con barra de búsqueda y filtros */}
       <DataFilters
         searchTerm={searchTerm}
         handleSearchChange={handleSearchChange}
-        handleSortByFechaRadicacion={handleSortByFechaRadicacion}
-        handleSortByUltimaActuacion={handleSortByUltimaActuacion}
+        handleSortByFechaRadicacion={() => {}}
+        handleSortByUltimaActuacion={() => {}}
       />
 
-      {/* Mostrar los procesos filtrados de la página actual */}
-      {currentProcesos.length > 0 ? (
-        <ul className="procesos-ul">
-          {currentProcesos.map((proceso) => (
-            <li key={proceso.idProceso} className="proceso-item">
-              <div className="proceso-columns">
-                <div className="proceso-column">
-                  <p><strong>ID Proceso:</strong> {proceso.idProceso}</p>
-                  <p><strong>Fecha del Proceso:</strong> {new Date(proceso.fechaProceso).toLocaleDateString()}</p>
-                  <p><strong>Última Actuación:</strong> {new Date(proceso.fechaUltimaActuacion).toLocaleDateString()}</p>
-                </div>
-                <div className="proceso-column">
-                  <p><strong>Despacho:</strong> {proceso.despacho}</p>
-                  <p><strong>Departamento:</strong> {proceso.departamento}</p>
-                  <p><strong>Sujetos Procesales:</strong> {proceso.sujetosProcesales}</p>
-                </div>
+      <ul className="procesos-ul">
+        {currentProcesos.map((proceso) => (
+          <li key={proceso.idProceso} className="proceso-item">
+            <div className="proceso-header">
+              {/* Caret para expandir/colapsar */}
+              <span
+                className={`caret ${expandedProceso === proceso.idProceso ? 'caret-down' : 'caret-right'}`}
+                onClick={() => handleExpand(proceso.idProceso)}
+              >
+              </span>
+              <p><strong>ID Proceso:</strong> {proceso.idProceso}</p>
+            </div>
+            <div className="proceso-columns">
+              <div className="proceso-column">
+                <p><strong>Fecha del Proceso:</strong> {new Date(proceso.fechaProceso).toLocaleDateString()}</p>
+                <p><strong>Última Actuación:</strong> {new Date(proceso.fechaUltimaActuacion).toLocaleDateString()}</p>
               </div>
-            </li>
-          ))}
-        </ul>
-      ) : (
-        <p>No se encontraron procesos con el término de búsqueda.</p>
-      )}
+              <div className="proceso-column">
+                <p><strong>Despacho:</strong> {proceso.despacho}</p>
+                <p><strong>Departamento:</strong> {proceso.departamento}</p>
+                <p><strong>Sujetos Procesales:</strong> {proceso.sujetosProcesales}</p>
+              </div>
+            </div>
 
-      {/* Paginación */}
+            {/* Mostrar las actuaciones si el proceso está expandido */}
+            {expandedProceso === proceso.idProceso && actuaciones[proceso.idProceso] && (
+              <div className="actuaciones">
+                <h4>Actuaciones</h4>
+                <ul>
+                  {actuaciones[proceso.idProceso].map((actuacion) => (
+                    <li key={actuacion.idRegActuacion}>
+                      <p><strong>Fecha:</strong> {new Date(actuacion.fechaActuacion).toLocaleDateString()}</p>
+                      <p><strong>Actuación:</strong> {actuacion.actuacion}</p>
+                      <p><strong>Anotación:</strong> {actuacion.anotacion}</p>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+          </li>
+        ))}
+      </ul>
+
       <Pagination
         procesosPerPage={procesosPerPage}
         totalProcesos={filteredProcesos.length}

@@ -16,6 +16,15 @@ export interface ApiResponse {
   procesos: Proceso[];
 }
 
+export interface Actuacion {
+  idRegActuacion: number;
+  llaveProceso: string;
+  consActuacion: number;
+  fechaActuacion: string;
+  actuacion: string;
+  anotacion: string;
+}
+
 function getData(endpoint: string): Promise<ApiResponse> {
   return fetch(endpoint)
     .then(res => {
@@ -47,6 +56,14 @@ export async function getAllProcesos(): Promise<Proceso[]> {
           continuar = false; // Detener si ya no hay más procesos
       }
   }
-
   return todosLosProcesos;
+}
+
+// Nueva función para obtener las actuaciones
+export async function fetchActuaciones(idProceso: number): Promise<Actuacion[]> {
+  const response = await fetch(
+    `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Proceso/Actuaciones/${idProceso}?pagina=1`
+  );
+  const data = await response.json();
+  return data.actuaciones;
 }
