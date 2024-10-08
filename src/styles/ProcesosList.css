@@ -44,3 +44,46 @@
 .proceso-item:last-child {
   margin-right: 0;
 }
+
+.proceso-header {
+  display: flex;
+  align-items: center;
+}
+
+.caret {
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.caret-right::before {
+  content: '▶';
+}
+
+.caret-down::before {
+  content: '▼';
+}
+
+.actuaciones {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.actuaciones h4 {
+  margin-bottom: 10px;
+}
+
+.actuaciones ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+}
+
+.actuaciones li {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
