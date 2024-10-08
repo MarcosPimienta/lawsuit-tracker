@@ -41,13 +41,12 @@ const ProcesosList: React.FC = () => {
     }
   }, [searchTerm, procesos]);
 
-  // Manejar la expansión de los procesos
   const handleExpand = async (idProceso: number) => {
     if (expandedProceso === idProceso) {
       setExpandedProceso(null); // Colapsar si se vuelve a hacer clic
     } else {
       if (!actuaciones[idProceso]) {
-        const fetchedActuaciones = await fetchActuaciones(idProceso);
+        const fetchedActuaciones = await fetchActuaciones(idProceso); // Usar la función importada
         setActuaciones((prev) => ({
           ...prev,
           [idProceso]: fetchedActuaciones,
@@ -59,7 +58,7 @@ const ProcesosList: React.FC = () => {
 
   const indexOfLastProceso = currentPage * procesosPerPage;
   const indexOfFirstProceso = indexOfLastProceso - procesosPerPage;
-  const currentProcesos = filteredProcesos.slice(indexOfFirstProceso, indexOfFirstProceso + procesosPerPage);
+  const currentProcesos = filteredProcesos.slice(indexOfFirstProceso, indexOfLastProceso);
 
   const paginate = (pageNumber: number) => setCurrentPage(pageNumber);
 
@@ -74,48 +73,53 @@ const ProcesosList: React.FC = () => {
         handleSortByUltimaActuacion={() => {}}
       />
 
-      <ul className="procesos-ul">
-        {currentProcesos.map((proceso) => (
-          <li key={proceso.idProceso} className="proceso-item">
-            <div className="proceso-header">
-              {/* Caret para expandir/colapsar */}
-              <span
-                className={`caret ${expandedProceso === proceso.idProceso ? 'caret-down' : 'caret-right'}`}
-                onClick={() => handleExpand(proceso.idProceso)}
-              >
-              </span>
-              <p><strong>ID Proceso:</strong> {proceso.idProceso}</p>
-            </div>
-            <div className="proceso-columns">
-              <div className="proceso-column">
-                <p><strong>Fecha del Proceso:</strong> {new Date(proceso.fechaProceso).toLocaleDateString()}</p>
-                <p><strong>Última Actuación:</strong> {new Date(proceso.fechaUltimaActuacion).toLocaleDateString()}</p>
+      {/* Mostrar los procesos filtrados de la página actual */}
+      {currentProcesos.length > 0 ? (
+        <ul className="procesos-ul">
+          {currentProcesos.map((proceso) => (
+            <li key={proceso.idProceso} className="proceso-item">
+              <div className="proceso-header">
+                {/* Caret para expandir/colapsar */}
+                <span
+                  className={`caret ${expandedProceso === proceso.idProceso ? 'caret-down' : 'caret-right'}`}
+                  onClick={() => handleExpand(proceso.idProceso)}
+                >
+                </span>
+                <p><strong>ID Proceso:</strong> {proceso.idProceso}</p>
               </div>
-              <div className="proceso-column">
-                <p><strong>Despacho:</strong> {proceso.despacho}</p>
-                <p><strong>Departamento:</strong> {proceso.departamento}</p>
-                <p><strong>Sujetos Procesales:</strong> {proceso.sujetosProcesales}</p>
+              <div className="proceso-columns">
+                <div className="proceso-column">
+                  <p><strong>Fecha del Proceso:</strong> {new Date(proceso.fechaProceso).toLocaleDateString()}</p>
+                  <p><strong>Última Actuación:</strong> {new Date(proceso.fechaUltimaActuacion).toLocaleDateString()}</p>
+                </div>
+                <div className="proceso-column">
+                  <p><strong>Despacho:</strong> {proceso.despacho}</p>
+                  <p><strong>Departamento:</strong> {proceso.departamento}</p>
+                  <p><strong>Sujetos Procesales:</strong> {proceso.sujetosProcesales}</p>
+                </div>
               </div>
-            </div>
 
-            {/* Mostrar las actuaciones si el proceso está expandido */}
-            {expandedProceso === proceso.idProceso && actuaciones[proceso.idProceso] && (
-              <div className="actuaciones">
-                <h4>Actuaciones</h4>
-                <ul>
-                  {actuaciones[proceso.idProceso].map((actuacion) => (
-                    <li key={actuacion.idRegActuacion}>
-                      <p><strong>Fecha:</strong> {new Date(actuacion.fechaActuacion).toLocaleDateString()}</p>
-                      <p><strong>Actuación:</strong> {actuacion.actuacion}</p>
-                      <p><strong>Anotación:</strong> {actuacion.anotacion}</p>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            )}
-          </li>
-        ))}
-      </ul>
+              {/* Mostrar las actuaciones si el proceso está expandido */}
+              {expandedProceso === proceso.idProceso && actuaciones[proceso.idProceso] && (
+                <div className="actuaciones">
+                  <h4>Actuaciones</h4>
+                  <ul>
+                    {actuaciones[proceso.idProceso].map((actuacion) => (
+                      <li key={actuacion.idRegActuacion}>
+                        <p><strong>Fecha:</strong> {new Date(actuacion.fechaActuacion).toLocaleDateString()}</p>
+                        <p><strong>Actuación:</strong> {actuacion.actuacion}</p>
+                        <p><strong>Anotación:</strong> {actuacion.anotacion}</p>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <p>No hay resultados para tu búsqueda.</p>
+      )}
 
       <Pagination
         procesosPerPage={procesosPerPage}
