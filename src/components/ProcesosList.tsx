@@ -3,7 +3,7 @@ import Pagination from './Pagination';
 import DataFilters from './DataFilters';
 import { getAllProcesos, fetchActuaciones, Proceso, Actuacion } from '../services/dataService';
 import '../styles/ProcesosList.css';
-import { LoadingSpinner } from '../assets/LoadingSpinner';
+import { LoadingSpinner } from '../components/LoadingSpinner';
 
 const ProcesosList: React.FC = () => {
   const [procesos, setProcesos] = useState<Proceso[]>([]);
