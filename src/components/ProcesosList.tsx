@@ -126,12 +126,14 @@ const ProcesosList: React.FC = () => {
         <p>{isLoading ? <LoadingSpinner /> : 'No hay resultados para tu búsqueda.'}</p>
       )}
 
-      <Pagination
+      {!isLoading &&
+        <Pagination
         procesosPerPage={procesosPerPage}
         totalProcesos={filteredProcesos.length}
         paginate={paginate}
         currentPage={currentPage}
       />
+      }
     </div>
   );
 };
