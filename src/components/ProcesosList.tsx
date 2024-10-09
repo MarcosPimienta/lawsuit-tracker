@@ -78,7 +78,7 @@ const ProcesosList: React.FC = () => {
         handleSortByUltimaActuacion={() => {}}
       />
 
-      {/* Mostrar los procesos filtrados de la página actual */}
+      <p>Total de resultados: {filteredProcesos.length}</p>
       {currentProcesos.length > 0 ? (
         <ul className="procesos-ul">
           {currentProcesos.map((proceso) => (
