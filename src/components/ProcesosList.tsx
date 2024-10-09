@@ -3,6 +3,7 @@ import Pagination from './Pagination';
 import DataFilters from './DataFilters';
 import { getAllProcesos, fetchActuaciones, Proceso, Actuacion } from '../services/dataService';
 import '../styles/ProcesosList.css';
+import { LoadingSpinner } from '../assets/LoadingSpinner';
 
 const ProcesosList: React.FC = () => {
   const [procesos, setProcesos] = useState<Proceso[]>([]);
@@ -13,8 +14,10 @@ const ProcesosList: React.FC = () => {
 
   const [currentPage, setCurrentPage] = useState<number>(1);
   const [procesosPerPage] = useState<number>(10);
+  const [isLoading, setIsLoading] = useState<boolean>(false);
 
   useEffect(() => {
+    setIsLoading(true)
     getAllProcesos()
       .then((data) => {
         setProcesos(data);
@@ -22,6 +25,8 @@ const ProcesosList: React.FC = () => {
       })
       .catch((error) => {
         console.error('Error al obtener los procesos:', error);
+      }).finally(() => {
+        setIsLoading(false)
       });
   }, []);
 
@@ -118,7 +123,7 @@ const ProcesosList: React.FC = () => {
           ))}
         </ul>
       ) : (
-        <p>No hay resultados para tu búsqueda.</p>
+        <p>{isLoading ? <LoadingSpinner /> : 'No hay resultados para tu búsqueda.'}</p>
       )}
 
       <Pagination
