@@ -43,14 +43,37 @@
   }
 }
 
+.data-filters {
+  gap: 10px;
+}
+
 .proceso-item .proceso-columns p {
   line-height: 20px
+}
+
+.pagination-container ul {
+  display: flex;
+  justify-content: flex-start; 
+  list-style: none; 
+  overflow-x: scroll;
+  padding: 0 0 5px 0;
+}
+
+.pagination-container ul::-webkit-scrollbar {
+  height: 10px;
+  background: lightgray;
+  border-radius: 10px;
+}
+.pagination-container ul::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 10px;
+  cursor: pointer;
+
 }
 
 @media (width <= 1024px) {
   .data-filters {
     flex-direction: column;
-    gap: 10px;
   }
   .data-filters select {
     width: 100%;

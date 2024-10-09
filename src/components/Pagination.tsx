@@ -13,8 +13,8 @@ const Pagination: React.FC<PaginationProps> = ({ procesosPerPage, totalProcesos,
     }
 
     return (
-        <nav>
-            <ul style={{ display: 'flex', justifyContent: 'center', listStyle: 'none', padding: 0 }}>
+        <nav className="pagination-container">
+            <ul>
                 {pageNumbers.map(number => (
                     <li key={number} style={{ margin: '0 5px' }}>
                         <button
