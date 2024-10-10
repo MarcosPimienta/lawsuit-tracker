@@ -17,7 +17,7 @@ const ProcesosList: React.FC = () => {
   const [isLoading, setIsLoading] = useState<boolean>(false);
 
   useEffect(() => {
-    setIsLoading(true)
+    setIsLoading(true);
     getAllProcesos()
       .then((data) => {
         setProcesos(data);
@@ -25,8 +25,9 @@ const ProcesosList: React.FC = () => {
       })
       .catch((error) => {
         console.error('Error al obtener los procesos:', error);
-      }).finally(() => {
-        setIsLoading(false)
+      })
+      .finally(() => {
+        setIsLoading(false);
       });
   }, []);
 
@@ -46,18 +47,38 @@ const ProcesosList: React.FC = () => {
     }
   }, [searchTerm, procesos]);
 
+  // Función para ordenar por fecha de radicación
+  const handleSortByFechaRadicacion = (order: string) => {
+    const sorted = [...filteredProcesos].sort((a, b) => {
+      const dateA = new Date(a.fechaProceso).getTime();
+      const dateB = new Date(b.fechaProceso).getTime();
+      return order === 'asc' ? dateA - dateB : dateB - dateA;
+    });
+    setFilteredProcesos(sorted);
+  };
+
+  // Función para ordenar por última actuación
+  const handleSortByUltimaActuacion = (order: string) => {
+    const sorted = [...filteredProcesos].sort((a, b) => {
+      const dateA = new Date(a.fechaUltimaActuacion).getTime();
+      const dateB = new Date(b.fechaUltimaActuacion).getTime();
+      return order === 'asc' ? dateA - dateB : dateB - dateA;
+    });
+    setFilteredProcesos(sorted);
+  };
+
   const handleExpand = async (idProceso: number) => {
     if (expandedProceso === idProceso) {
-      setExpandedProceso(null); // Colapsar si se vuelve a hacer clic
+      setExpandedProceso(null);
     } else {
       if (!actuaciones[idProceso]) {
-        const fetchedActuaciones = await fetchActuaciones(idProceso); // Usar la función importada
+        const fetchedActuaciones = await fetchActuaciones(idProceso);
         setActuaciones((prev) => ({
           ...prev,
           [idProceso]: fetchedActuaciones,
         }));
       }
-      setExpandedProceso(idProceso); // Expandir el nuevo proceso
+      setExpandedProceso(idProceso);
     }
   };
 
@@ -74,8 +95,8 @@ const ProcesosList: React.FC = () => {
       <DataFilters
         searchTerm={searchTerm}
         handleSearchChange={handleSearchChange}
-        handleSortByFechaRadicacion={() => {}}
-        handleSortByUltimaActuacion={() => {}}
+        handleSortByFechaRadicacion={handleSortByFechaRadicacion}
+        handleSortByUltimaActuacion={handleSortByUltimaActuacion}
       />
 
       <p>Total de resultados: {filteredProcesos.length}</p>
@@ -128,11 +149,11 @@ const ProcesosList: React.FC = () => {
 
       {!isLoading &&
         <Pagination
-        procesosPerPage={procesosPerPage}
-        totalProcesos={filteredProcesos.length}
-        paginate={paginate}
-        currentPage={currentPage}
-      />
+          procesosPerPage={procesosPerPage}
+          totalProcesos={filteredProcesos.length}
+          paginate={paginate}
+          currentPage={currentPage}
+        />
       }
     </div>
   );
