@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Pagination from './Pagination';
 import DataFilters from './DataFilters';
-import { getAllProcesos, fetchActuaciones, Proceso, Actuacion } from '../services/dataService';
+import { getCombinedProcesos, fetchActuaciones, Proceso, Actuacion } from '../services/dataService';
 import '../styles/ProcesosList.css';
 import { LoadingSpinner } from '../components/LoadingSpinner';
 
@@ -18,7 +18,7 @@ const ProcesosList: React.FC = () => {
 
   useEffect(() => {
     setIsLoading(true);
-    getAllProcesos()
+    getCombinedProcesos()
       .then((data) => {
         setProcesos(data);
         setFilteredProcesos(data);
