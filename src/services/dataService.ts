@@ -41,22 +41,38 @@ function getData(endpoint: string): Promise<ApiResponse> {
     });
 }
 
-export async function getAllProcesos(): Promise<Proceso[]> {
-  let pagina = 1;
-  let todosLosProcesos: Proceso[] = [];
-  let continuar = true;
+export async function getCombinedProcesos(): Promise<Proceso[]> {
+  const fetchProcesos = async (entity: string): Promise<Proceso[]> => {
+    let pagina = 1;
+    let allProcesos: Proceso[] = [];
+    let continuar = true;
 
-  while (continuar) {
-      const response = await getData(`https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Procesos/Consulta/NombreRazonSocial?nombre=Coderise&tipoPersona=jur&SoloActivos=false&codificacionDespacho=&pagina=${pagina}`);
+    while (continuar) {
+      const response = await getData(
+        `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Procesos/Consulta/NombreRazonSocial?nombre=${encodeURIComponent(
+          entity
+        )}&tipoPersona=jur&SoloActivos=false&codificacionDespacho=&pagina=${pagina}`
+      );
 
       if (response.procesos.length > 0) {
-          todosLosProcesos = todosLosProcesos.concat(response.procesos);
-          pagina++; // Pasar a la siguiente página
+        allProcesos = allProcesos.concat(response.procesos);
+        pagina++; // Continue to the next page
       } else {
-          continuar = false; // Detener si ya no hay más procesos
+        continuar = false; // Stop if no more processes are found
       }
-  }
-  return todosLosProcesos;
+    }
+
+    return allProcesos;
+  };
+
+  // Fetch procesos for both entities in parallel
+  const [coderiseProcesos, astorgaProcesos] = await Promise.all([
+    fetchProcesos("Coderise"),
+    fetchProcesos("Astorga Management"),
+  ]);
+
+  // Combine both lists into a single array
+  return [...coderiseProcesos, ...astorgaProcesos];
 }
 
 // Nueva función para obtener las actuaciones
