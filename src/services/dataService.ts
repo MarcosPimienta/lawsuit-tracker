@@ -69,6 +69,7 @@ export async function getCombinedProcesos(): Promise<Proceso[]> {
   const [coderiseProcesos, astorgaProcesos] = await Promise.all([
     fetchProcesos("Coderise"),
     fetchProcesos("Astorga Management"),
+    fetchProcesos("Fideicomiso Academia"),
   ]);
 
   // Combine both lists into a single array
