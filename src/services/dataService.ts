@@ -25,24 +25,48 @@ export interface Actuacion {
   anotacion: string;
 }
 
-function getData(endpoint: string): Promise<ApiResponse> {
-  const proxiedUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(endpoint)}`;
-  return fetch(proxiedUrl)
-    .then(res => {
-      if (!res.ok) {
-        // Si la respuesta no es satisfactoria, rechazamos la promesa con un error
-        return Promise.reject(new Error(`Error al obtener los datos: ${res.status} ${res.statusText}`));
+// Helper function to handle proxy fallbacks and retries
+async function fetchWithRetryAndFallback(endpoint: string, retries = 2, delayMs = 150): Promise<any> {
+  const proxies = [
+    (url: string) => `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`,
+    (url: string) => `https://corsproxy.io/?url=${encodeURIComponent(url)}`
+  ];
+
+  for (let attempt = 1; attempt <= retries; attempt++) {
+    for (const getProxyUrl of proxies) {
+      const proxiedUrl = getProxyUrl(endpoint);
+      try {
+        const response = await fetch(proxiedUrl);
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        
+        const data = await response.json();
+        
+        if (proxiedUrl.includes("allorigins.win")) {
+          if (!data.contents) {
+            throw new Error("AllOrigins returned empty contents");
+          }
+          return JSON.parse(data.contents);
+        }
+        
+        return data;
+      } catch (err: any) {
+        console.warn(`Attempt ${attempt} failed with proxy: ${proxiedUrl.split('?')[0]}. Error: ${err.message}`);
       }
-      return res.json();
-    })
-    .then(data => {
-      const responseObj = JSON.parse((data as any).contents);
-      return responseObj as ApiResponse;
-    })
-    .catch(error => {
-      // Capturamos cualquier error de la solicitud y rechazamos la promesa
-      return Promise.reject(error);
-    });
+    }
+    
+    if (attempt < retries) {
+      await new Promise(resolve => setTimeout(resolve, delayMs));
+    }
+  }
+  
+  throw new Error(`Failed to fetch ${endpoint} after ${retries} attempts with all proxies.`);
+}
+
+function getData(endpoint: string): Promise<ApiResponse> {
+  return fetchWithRetryAndFallback(endpoint, 2, 200)
+    .then(data => data as ApiResponse);
 }
 
 export async function getCombinedProcesos(): Promise<Proceso[]> {
@@ -52,17 +76,24 @@ export async function getCombinedProcesos(): Promise<Proceso[]> {
     let continuar = true;
 
     while (continuar) {
-      const response = await getData(
-        `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Procesos/Consulta/NombreRazonSocial?nombre=${encodeURIComponent(
-          entity
-        )}&tipoPersona=jur&SoloActivos=false&codificacionDespacho=&pagina=${pagina}`
-      );
+      try {
+        const response = await getData(
+          `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Procesos/Consulta/NombreRazonSocial?nombre=${encodeURIComponent(
+            entity
+          )}&tipoPersona=jur&SoloActivos=false&codificacionDespacho=&pagina=${pagina}`
+        );
 
-      if (response.procesos.length > 0) {
-        allProcesos = allProcesos.concat(response.procesos);
-        pagina++; // Continue to the next page
-      } else {
-        continuar = false; // Stop if no more processes are found
+        if (response && response.procesos && response.procesos.length > 0) {
+          allProcesos = allProcesos.concat(response.procesos);
+          pagina++; // Continue to the next page
+          // Add a small 100ms throttle between pages to avoid slamming the proxy
+          await new Promise(resolve => setTimeout(resolve, 100));
+        } else {
+          continuar = false; // Stop if no more processes are found
+        }
+      } catch (error) {
+        console.error(`Error fetching page ${pagina} for ${entity}:`, error);
+        continuar = false; // Stop looping on error, but keep what we fetched so far
       }
     }
 
@@ -84,9 +115,6 @@ export async function getCombinedProcesos(): Promise<Proceso[]> {
 // Nueva función para obtener las actuaciones
 export async function fetchActuaciones(idProceso: number): Promise<Actuacion[]> {
   const url = `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Proceso/Actuaciones/${idProceso}?pagina=1`;
-  const proxiedUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
-  const response = await fetch(proxiedUrl);
-  const data = await response.json();
-  const parsedData = JSON.parse(data.contents);
-  return parsedData.actuaciones;
+  const data = await fetchWithRetryAndFallback(url, 2, 200);
+  return data.actuaciones;
 }
