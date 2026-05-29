@@ -66,14 +66,15 @@ export async function getCombinedProcesos(): Promise<Proceso[]> {
   };
 
   // Fetch procesos for all entities in parallel
-  const [coderiseProcesos, astorgaProcesos, fideicomisoProcesos] = await Promise.all([
+  const [coderiseProcesos, astorgaProcesos, fideicomisoProcesos, vcInvestmentsProcesos] = await Promise.all([
     fetchProcesos("Coderise"),
     fetchProcesos("Astorga Management"),
     fetchProcesos("Fideicomiso Academia"),
+    fetchProcesos("VC INVESTMENTS S.A.S"),
   ]);
 
   // Combine both lists into a single array
-  return [...coderiseProcesos, ...astorgaProcesos, ...fideicomisoProcesos];
+  return [...coderiseProcesos, ...astorgaProcesos, ...fideicomisoProcesos, ...vcInvestmentsProcesos];
 }
 
 // Nueva función para obtener las actuaciones
