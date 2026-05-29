@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/lawsuit-tracker/static/css/main.652f0993.css",
-    "main.js": "/lawsuit-tracker/static/js/main.8f6b5eb4.js",
+    "main.js": "/lawsuit-tracker/static/js/main.c23072ed.js",
     "static/js/453.79c78458.chunk.js": "/lawsuit-tracker/static/js/453.79c78458.chunk.js",
     "index.html": "/lawsuit-tracker/index.html",
     "main.652f0993.css.map": "/lawsuit-tracker/static/css/main.652f0993.css.map",
-    "main.8f6b5eb4.js.map": "/lawsuit-tracker/static/js/main.8f6b5eb4.js.map",
+    "main.c23072ed.js.map": "/lawsuit-tracker/static/js/main.c23072ed.js.map",
     "453.79c78458.chunk.js.map": "/lawsuit-tracker/static/js/453.79c78458.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.652f0993.css",
-    "static/js/main.8f6b5eb4.js"
+    "static/js/main.c23072ed.js"
   ]
 }
