@@ -12,22 +12,46 @@ async function delay(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-// Function to fetch data with retry
+// Function to fetch data with retry and proxy fallback
 async function fetchWithRetry(url, retries = 3, backoff = 500) {
+  const proxies = [
+    (targetUrl) => targetUrl,
+    (targetUrl) => `https://api.allorigins.win/get?url=${encodeURIComponent(targetUrl)}`,
+    (targetUrl) => `https://corsproxy.io/?url=${encodeURIComponent(targetUrl)}`
+  ];
+
   for (let attempt = 1; attempt <= retries; attempt++) {
-    try {
-      const res = await fetch(url);
-      if (!res.ok) {
-        throw new Error(`HTTP error! status: ${res.status}`);
+    for (const getProxyUrl of proxies) {
+      const proxiedUrl = getProxyUrl(url);
+      try {
+        const res = await fetch(proxiedUrl);
+        if (!res.ok) {
+          throw new Error(`HTTP error! status: ${res.status}`);
+        }
+        const data = await res.json();
+        
+        if (proxiedUrl.includes("allorigins.win")) {
+          if (!data.contents) {
+            throw new Error("AllOrigins returned empty contents");
+          }
+          return JSON.parse(data.contents);
+        }
+        
+        return data;
+      } catch (e) {
+        // Only log warning if it's a proxy fallback, keep it silent for direct block
+        if (getProxyUrl !== proxies[0]) {
+          console.warn(`   [Warning] Attempt ${attempt} failed with proxy: ${proxiedUrl.split('?')[0]} (${e.message}).`);
+        }
       }
-      return await res.json();
-    } catch (e) {
-      if (attempt === retries) throw e;
-      console.warn(`[Warning] Failed to fetch ${url} (Attempt ${attempt}/${retries}). Retrying in ${backoff}ms...`);
+    }
+    
+    if (attempt < retries) {
       await delay(backoff);
       backoff *= 2;
     }
   }
+  throw new Error(`Failed to fetch ${url} after all attempts and proxies.`);
 }
 
 async function scrapeAll() {
@@ -50,7 +74,7 @@ async function scrapeAll() {
   const existingActuaciones = existingData.actuaciones || {};
 
   const allProcesos = [];
-  const actuacionesMap = {};
+  const actuacionesMap = { ...existingActuaciones };
   
   // Step 1: Fetch all processes for all entities
   for (const entity of entities) {
@@ -100,15 +124,14 @@ async function scrapeAll() {
   // Step 2: Fetch actuaciones for each unique process
   console.log(`\n⏳ Fetching detailed history (actuaciones) for ${uniqueProcesos.length} processes...`);
   
-  // Batch requests to speed up slightly while keeping load low
-  const BATCH_SIZE = 5;
   let cacheHits = 0;
   let apiFetches = 0;
+  let consecutiveFailures = 0;
+  let scrapeError = null;
 
-  for (let i = 0; i < uniqueProcesos.length; i += BATCH_SIZE) {
-    const batch = uniqueProcesos.slice(i, i + BATCH_SIZE);
-    
-    await Promise.all(batch.map(async (proceso) => {
+  try {
+    for (let i = 0; i < uniqueProcesos.length; i++) {
+      const proceso = uniqueProcesos[i];
       const cachedProc = existingProcesosMap.get(proceso.idProceso);
       const hasCachedActuaciones = !!existingActuaciones[proceso.idProceso];
       
@@ -116,55 +139,67 @@ async function scrapeAll() {
       if (cachedProc && hasCachedActuaciones && cachedProc.fechaUltimaActuacion === proceso.fechaUltimaActuacion) {
         actuacionesMap[proceso.idProceso] = existingActuaciones[proceso.idProceso];
         cacheHits++;
-        return;
+        continue;
       }
       
-      // Otherwise fetch from API
+      // Otherwise fetch from API sequentially
       const url = `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Proceso/Actuaciones/${proceso.idProceso}?pagina=1`;
       try {
         const data = await fetchWithRetry(url);
         if (data && data.actuaciones) {
           actuacionesMap[proceso.idProceso] = data.actuaciones;
           apiFetches++;
+          consecutiveFailures = 0; // Reset on successful fetch
         }
       } catch (err) {
         console.error(`❌ Failed to fetch actuaciones for process ID ${proceso.idProceso}:`, err.message);
-        // Fallback to cache if we hit rate limits so we don't lose existing data
         if (hasCachedActuaciones) {
           console.warn(`   [Warning] Reverting to cached actuaciones for process ID ${proceso.idProceso}`);
           actuacionesMap[proceso.idProceso] = existingActuaciones[proceso.idProceso];
+        } else {
+          scrapeError = err;
+          consecutiveFailures++;
         }
       }
-    }));
-    
-    // Log progress
-    if ((i + BATCH_SIZE) % 50 === 0 || i + BATCH_SIZE >= uniqueProcesos.length) {
-      const progress = Math.min(i + BATCH_SIZE, uniqueProcesos.length);
-      console.log(`   Progress: ${progress}/${uniqueProcesos.length} (Cache hits: ${cacheHits}, API fetches: ${apiFetches})`);
+      
+      // Log progress every 50 processes
+      if ((i + 1) % 50 === 0 || i + 1 === uniqueProcesos.length) {
+        console.log(`   Progress: ${i + 1}/${uniqueProcesos.length} (Cache hits: ${cacheHits}, API fetches: ${apiFetches})`);
+      }
+      
+      // If we hit too many consecutive failures (e.g. all proxies blocked), save and pause
+      if (consecutiveFailures >= 5) {
+        console.warn(`\n⚠️ Hitting too many consecutive failures (${consecutiveFailures}). Saving successfully scraped data and pausing to avoid WAF block...`);
+        break;
+      }
+      
+      // Sleep between requests to avoid triggering WAF rate limit
+      await delay(800); // 800ms delay between individual API calls
     }
-    
-    // Sleep between batches only if we actually made API calls in this batch
-    const madeApiCall = batch.some(proceso => {
-      const cachedProc = existingProcesosMap.get(proceso.idProceso);
-      const hasCachedActuaciones = !!existingActuaciones[proceso.idProceso];
-      return !(cachedProc && hasCachedActuaciones && cachedProc.fechaUltimaActuacion === proceso.fechaUltimaActuacion);
-    });
-    if (madeApiCall) {
-      await delay(500); // 500ms delay between API call batches
-    }
+  } catch (err) {
+    console.error("❌ Critical error during actuaciones fetching:", err.message);
+    scrapeError = err;
   }
   
-  // Step 3: Write out to procesos.json
+  // Step 3: Write out to procesos.json (saving successful fetches so far)
   const payload = {
     procesos: uniqueProcesos,
     actuaciones: actuacionesMap
   };
   
   fs.writeFileSync(outputPath, JSON.stringify(payload, null, 2));
-  console.log(`\n🎉 Done! Database successfully updated and saved to ${outputPath}`);
+  console.log(`\n💾 Database saved to ${outputPath} (${Object.keys(actuacionesMap).length} total process histories stored).`);
+
+  if (scrapeError) {
+    console.error("💥 Execution completed with errors. Some process histories could not be fetched due to rate limits. Run again to resume.");
+    process.exit(1);
+  } else {
+    console.log("🎉 Done! Database successfully updated and verified.");
+  }
 }
 
 scrapeAll().catch(err => {
   console.error("💥 Critical execution error:", err);
   process.exit(1);
 });
+

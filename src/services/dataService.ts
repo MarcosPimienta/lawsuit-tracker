@@ -37,7 +37,9 @@ async function getLocalData(): Promise<LocalData> {
     return cachedData;
   }
 
-  const response = await fetch("./procesos.json");
+  const publicUrl = process.env.PUBLIC_URL;
+  const url = publicUrl ? `${publicUrl}/procesos.json` : "./procesos.json";
+  const response = await fetch(url);
   if (!response.ok) {
     throw new Error(`Failed to load procesos.json: ${response.status} ${response.statusText}`);
   }

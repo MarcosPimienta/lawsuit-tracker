@@ -144,7 +144,9 @@ const ProcesosList: React.FC = () => {
           ))}
         </ul>
       ) : (
-        <p>{isLoading ? <LoadingSpinner /> : 'No hay resultados para tu búsqueda.'}</p>
+        <div className="no-resultados">
+          {isLoading ? <LoadingSpinner /> : <p>No hay resultados para tu búsqueda.</p>}
+        </div>
       )}
 
       {!isLoading &&
