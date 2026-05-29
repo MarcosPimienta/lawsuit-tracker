@@ -53,8 +53,122 @@ export async function getCombinedProcesos(): Promise<Proceso[]> {
   return data.procesos;
 }
 
+async function fetchWithRetryAndFallback(endpoint: string, retries = 2, delayMs = 150): Promise<any> {
+  const proxies = [
+    (url: string) => `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`,
+    (url: string) => `https://corsproxy.io/?url=${encodeURIComponent(url)}`
+  ];
+
+  for (let attempt = 1; attempt <= retries; attempt++) {
+    for (const getProxyUrl of proxies) {
+      const proxiedUrl = getProxyUrl(endpoint);
+      try {
+        const response = await fetch(proxiedUrl);
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        
+        const data = await response.json();
+        
+        if (proxiedUrl.includes("allorigins.win")) {
+          if (!data.contents) {
+            throw new Error("AllOrigins returned empty contents");
+          }
+          return JSON.parse(data.contents);
+        }
+        
+        return data;
+      } catch (err: any) {
+        console.warn(`Attempt ${attempt} failed with proxy: ${proxiedUrl.split('?')[0]}. Error: ${err.message}`);
+      }
+    }
+    
+    if (attempt < retries) {
+      await new Promise(resolve => setTimeout(resolve, delayMs));
+    }
+  }
+  
+  throw new Error(`Failed to fetch ${endpoint} after ${retries} attempts with all proxies.`);
+}
+
+async function fetchOnlineProcesosForEntity(entity: string): Promise<Proceso[]> {
+  let pagina = 1;
+  let allProcesos: Proceso[] = [];
+  let continuar = true;
+  const seenIds = new Set<number>();
+
+  while (continuar) {
+    const url = `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Procesos/Consulta/NombreRazonSocial?nombre=${encodeURIComponent(
+      entity
+    )}&tipoPersona=jur&SoloActivos=false&codificacionDespacho=&pagina=${pagina}`;
+
+    try {
+      const response = await fetchWithRetryAndFallback(url, 2, 200);
+      if (response && response.procesos && response.procesos.length > 0) {
+        const hasNew = response.procesos.some((p: Proceso) => !seenIds.has(p.idProceso));
+        if (!hasNew) {
+          continuar = false;
+          break;
+        }
+        for (const p of response.procesos) {
+          seenIds.add(p.idProceso);
+        }
+        allProcesos = allProcesos.concat(response.procesos);
+        pagina++;
+        await new Promise(resolve => setTimeout(resolve, 100)); // 100ms throttle
+      } else {
+        continuar = false;
+      }
+    } catch (error) {
+      console.error(`Error fetching page ${pagina} for ${entity}:`, error);
+      continuar = false; // Stop looping on error
+    }
+  }
+
+  return allProcesos;
+}
+
+export async function getOnlineProcesos(): Promise<Proceso[]> {
+  const entities = [
+    "Coderise",
+    "Astorga Management",
+    "Fideicomiso Academia",
+    "VC Investments"
+  ];
+
+  try {
+    const results = await Promise.all(
+      entities.map(entity => fetchOnlineProcesosForEntity(entity))
+    );
+
+    const allProcesos = results.flat();
+    const uniqueProcesosMap = new Map<number, Proceso>();
+    for (const p of allProcesos) {
+      uniqueProcesosMap.set(p.idProceso, p);
+    }
+
+    return Array.from(uniqueProcesosMap.values());
+  } catch (error) {
+    console.error("Failed to fetch online processes:", error);
+    return [];
+  }
+}
+
 // Nueva función para obtener las actuaciones
 export async function fetchActuaciones(idProceso: number): Promise<Actuacion[]> {
   const data = await getLocalData();
-  return data.actuaciones[idProceso] || [];
+  if (data.actuaciones[idProceso] && data.actuaciones[idProceso].length > 0) {
+    return data.actuaciones[idProceso];
+  }
+
+  // Fallback: Fetch dynamically from the live API using proxy fallback
+  console.log(`Actuaciones for process ID ${idProceso} not in cache, fetching dynamically...`);
+  const url = `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Proceso/Actuaciones/${idProceso}?pagina=1`;
+  try {
+    const res = await fetchWithRetryAndFallback(url, 2, 200);
+    return res.actuaciones || [];
+  } catch (error) {
+    console.error(`Failed to fetch actuaciones dynamically for process ID ${idProceso}:`, error);
+    return [];
+  }
 }
