@@ -26,7 +26,7 @@ export interface Actuacion {
 }
 
 function getData(endpoint: string): Promise<ApiResponse> {
-  const proxiedUrl = `https://corsproxy.io/?url=${encodeURIComponent(endpoint)}`;
+  const proxiedUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(endpoint)}`;
   return fetch(proxiedUrl)
     .then(res => {
       if (!res.ok) {
@@ -81,7 +81,7 @@ export async function getCombinedProcesos(): Promise<Proceso[]> {
 // Nueva función para obtener las actuaciones
 export async function fetchActuaciones(idProceso: number): Promise<Actuacion[]> {
   const url = `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Proceso/Actuaciones/${idProceso}?pagina=1`;
-  const proxiedUrl = `https://corsproxy.io/?url=${encodeURIComponent(url)}`;
+  const proxiedUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`;
   const response = await fetch(proxiedUrl);
   const data = await response.json();
   return data.actuaciones;
