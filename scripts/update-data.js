@@ -5,7 +5,8 @@ const entities = [
   "Coderise",
   "Astorga Management",
   "Fideicomiso Academia",
-  "VC Investments"
+  "VC Investments",
+  "Lumni"
 ];
 
 async function delay(ms) {

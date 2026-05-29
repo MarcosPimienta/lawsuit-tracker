@@ -133,7 +133,8 @@ export async function getOnlineProcesos(): Promise<Proceso[]> {
     "Coderise",
     "Astorga Management",
     "Fideicomiso Academia",
-    "VC Investments"
+    "VC Investments",
+    "Lumni"
   ];
 
   try {
