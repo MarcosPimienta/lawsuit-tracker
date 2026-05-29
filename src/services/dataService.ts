@@ -70,7 +70,7 @@ export async function getCombinedProcesos(): Promise<Proceso[]> {
     fetchProcesos("Coderise"),
     fetchProcesos("Astorga Management"),
     fetchProcesos("Fideicomiso Academia"),
-    fetchProcesos("VC INVESTMENTS S.A.S"),
+    fetchProcesos("VC Investments"),
   ]);
 
   // Combine both lists into a single array
