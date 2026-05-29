@@ -26,7 +26,7 @@ export interface Actuacion {
 }
 
 function getData(endpoint: string): Promise<ApiResponse> {
-  const proxiedUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(endpoint)}`;
+  const proxiedUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(endpoint)}`;
   return fetch(proxiedUrl)
     .then(res => {
       if (!res.ok) {
@@ -35,7 +35,10 @@ function getData(endpoint: string): Promise<ApiResponse> {
       }
       return res.json();
     })
-    .then(data => data as ApiResponse)
+    .then(data => {
+      const responseObj = JSON.parse((data as any).contents);
+      return responseObj as ApiResponse;
+    })
     .catch(error => {
       // Capturamos cualquier error de la solicitud y rechazamos la promesa
       return Promise.reject(error);
@@ -81,8 +84,9 @@ export async function getCombinedProcesos(): Promise<Proceso[]> {
 // Nueva función para obtener las actuaciones
 export async function fetchActuaciones(idProceso: number): Promise<Actuacion[]> {
   const url = `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Proceso/Actuaciones/${idProceso}?pagina=1`;
-  const proxiedUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`;
+  const proxiedUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
   const response = await fetch(proxiedUrl);
   const data = await response.json();
-  return data.actuaciones;
+  const parsedData = JSON.parse(data.contents);
+  return parsedData.actuaciones;
 }
