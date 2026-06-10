@@ -99,24 +99,37 @@ async function fetchOnlineProcesosForEntity(entity: string): Promise<Proceso[]> 
   const seenIds = new Set<number>();
 
   while (continuar) {
+    const cacheBuster = `&_cb=${Date.now()}_${Math.random().toString(36).substr(2, 5)}`;
     const url = `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Procesos/Consulta/NombreRazonSocial?nombre=${encodeURIComponent(
       entity
-    )}&tipoPersona=jur&SoloActivos=false&codificacionDespacho=&pagina=${pagina}`;
+    )}&tipoPersona=jur&SoloActivos=false&codificacionDespacho=&pagina=${pagina}${cacheBuster}`;
 
     try {
       const response = await fetchWithRetryAndFallback(url, 2, 200);
       if (response && response.procesos && response.procesos.length > 0) {
+        if (response.paginacion && response.paginacion.pagina !== pagina) {
+          console.warn(`Proxy returned cached page ${response.paginacion.pagina} instead of requested page ${pagina} for entity "${entity}".`);
+        }
+
         const hasNew = response.procesos.some((p: Proceso) => !seenIds.has(p.idProceso));
-        if (!hasNew) {
+        const isFreshResponse = !response.paginacion || response.paginacion.pagina === pagina;
+
+        if (!hasNew && isFreshResponse) {
           continuar = false;
           break;
         }
+
         for (const p of response.procesos) {
           seenIds.add(p.idProceso);
         }
         allProcesos = allProcesos.concat(response.procesos);
-        pagina++;
-        await new Promise(resolve => setTimeout(resolve, 100)); // 100ms throttle
+
+        if (response.paginacion && pagina >= response.paginacion.cantidadPaginas) {
+          continuar = false;
+        } else {
+          pagina++;
+          await new Promise(resolve => setTimeout(resolve, 100)); // 100ms throttle
+        }
       } else {
         continuar = false;
       }
