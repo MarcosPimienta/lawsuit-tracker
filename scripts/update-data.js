@@ -43,6 +43,11 @@ async function fetchWithRetry(baseUrl, retries = 3, backoff = 500) {
         }
 
         const res = await fetch(proxiedUrl, options);
+        if (res.status === 404) {
+          const err = new Error(`404 Not Found`);
+          err.isFatal = true;
+          throw err;
+        }
         if (!res.ok) {
           throw new Error(`HTTP error! status: ${res.status}`);
         }
@@ -59,6 +64,9 @@ async function fetchWithRetry(baseUrl, retries = 3, backoff = 500) {
       } catch (e) {
         const sourceName = getProxyUrl === proxies[0] ? 'Direct connection' : `Proxy: ${proxiedUrl.split('?')[0]}`;
         console.warn(`   [Warning] Attempt ${attempt} failed with ${sourceName} (${e.message}).`);
+        if (e.isFatal) {
+          throw e;
+        }
       }
     }
     
@@ -183,8 +191,12 @@ async function scrapeAll() {
             console.warn(`   [Warning] Reverting to cached actuaciones for process ID ${proceso.idProceso}`);
             actuacionesMap[proceso.idProceso] = existingActuaciones[proceso.idProceso];
           } else {
-            scrapeError = err;
-            consecutiveFailures++;
+            if (err.message === '404 Not Found') {
+              actuacionesMap[proceso.idProceso] = []; // Resolve as empty actuaciones
+            } else {
+              scrapeError = err;
+              consecutiveFailures++;
+            }
           }
         }
       }
