@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Pagination from './Pagination';
 import DataFilters from './DataFilters';
-import { getCombinedProcesos, getOnlineProcesos, fetchActuaciones, Proceso, Actuacion } from '../services/dataService';
+import { getCombinedProcesos, fetchActuaciones, Proceso, Actuacion } from '../services/dataService';
 import '../styles/ProcesosList.css';
 import { LoadingSpinner } from '../components/LoadingSpinner';
 
@@ -15,7 +15,6 @@ const ProcesosList: React.FC = () => {
   const [currentPage, setCurrentPage] = useState<number>(1);
   const [procesosPerPage] = useState<number>(10);
   const [isLoading, setIsLoading] = useState<boolean>(false);
-  const [isSyncing, setIsSyncing] = useState<boolean>(false);
 
   useEffect(() => {
     setIsLoading(true);
@@ -23,39 +22,6 @@ const ProcesosList: React.FC = () => {
       .then((data) => {
         setProcesos(data);
         setFilteredProcesos(data);
-
-        // Run background online sync after showing cache
-        setIsSyncing(true);
-        getOnlineProcesos()
-          .then((onlineData) => {
-            if (onlineData.length > 0) {
-              setProcesos((prevProcesos) => {
-                const mergedMap = new Map<number, Proceso>();
-                // Load cached processes
-                for (const p of prevProcesos) {
-                  mergedMap.set(p.idProceso, p);
-                }
-                // Merge online updates
-                let addedCount = 0;
-                for (const p of onlineData) {
-                  if (!mergedMap.has(p.idProceso)) {
-                    addedCount++;
-                  }
-                  mergedMap.set(p.idProceso, p);
-                }
-                if (addedCount > 0) {
-                  console.log(`Synced: Added ${addedCount} new processes from online database.`);
-                }
-                return Array.from(mergedMap.values());
-              });
-            }
-          })
-          .catch((error) => {
-            console.error('Error syncing online processes:', error);
-          })
-          .finally(() => {
-            setIsSyncing(false);
-          });
       })
       .catch((error) => {
         console.error('Error al obtener los procesos:', error);
@@ -135,12 +101,6 @@ const ProcesosList: React.FC = () => {
 
       <div className="procesos-info">
         <p>Total de resultados: {filteredProcesos.length}</p>
-        {isSyncing && (
-          <div className="sync-status">
-            <span className="sync-spinner"></span>
-            <span className="sync-text">Sincronizando con el servidor online...</span>
-          </div>
-        )}
       </div>
       {currentProcesos.length > 0 ? (
         <ul className="procesos-ul">
