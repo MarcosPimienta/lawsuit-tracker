@@ -54,41 +54,53 @@ export async function getCombinedProcesos(): Promise<Proceso[]> {
   return data.procesos;
 }
 
-async function fetchWithRetryAndFallback(endpoint: string, retries = 2, delayMs = 150): Promise<any> {
-  const proxies = [
-    (url: string) => `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`,
-    (url: string) => `https://corsproxy.io/?url=${encodeURIComponent(url)}`
-  ];
+type ProxyConfig = {
+  getUrl: (url: string) => string;
+  parseResponse: (data: any) => any;
+};
 
+const PROXIES: ProxyConfig[] = [
+  {
+    // Returns proxied response directly as JSON
+    getUrl: (url) => `https://corsproxy.io/?${encodeURIComponent(url)}`,
+    parseResponse: (data) => data,
+  },
+  {
+    // Wraps response in { contents: "<json string>" }
+    getUrl: (url) => `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`,
+    parseResponse: (data) => {
+      if (!data.contents) throw new Error("AllOrigins returned empty contents");
+      return JSON.parse(data.contents);
+    },
+  },
+  {
+    // Returns proxied response directly as JSON
+    getUrl: (url) => `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(url)}`,
+    parseResponse: (data) => data,
+  },
+];
+
+async function fetchWithRetryAndFallback(endpoint: string, retries = 2, delayMs = 150): Promise<any> {
   for (let attempt = 1; attempt <= retries; attempt++) {
-    for (const getProxyUrl of proxies) {
-      const proxiedUrl = getProxyUrl(endpoint);
+    for (const proxy of PROXIES) {
+      const proxiedUrl = proxy.getUrl(endpoint);
       try {
-        const response = await fetch(proxiedUrl);
+        const response = await fetch(proxiedUrl, { mode: "cors" });
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
-        
         const data = await response.json();
-        
-        if (proxiedUrl.includes("allorigins.win")) {
-          if (!data.contents) {
-            throw new Error("AllOrigins returned empty contents");
-          }
-          return JSON.parse(data.contents);
-        }
-        
-        return data;
+        return proxy.parseResponse(data);
       } catch (err: any) {
         console.warn(`Attempt ${attempt} failed with proxy: ${proxiedUrl.split('?')[0]}. Error: ${err.message}`);
       }
     }
-    
+
     if (attempt < retries) {
       await new Promise(resolve => setTimeout(resolve, delayMs));
     }
   }
-  
+
   throw new Error(`Failed to fetch ${endpoint} after ${retries} attempts with all proxies.`);
 }
 
