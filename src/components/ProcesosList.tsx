@@ -39,8 +39,10 @@ const ProcesosList: React.FC = () => {
     if (searchTerm === '') {
       setFilteredProcesos(procesos);
     } else {
+      const normalize = (s: string) => s.toLowerCase().replace(/\s+/g, ' ').trim();
+      const needle = normalize(searchTerm);
       const filtered = procesos.filter((proceso) =>
-        proceso.sujetosProcesales.toLowerCase().includes(searchTerm.toLowerCase())
+        normalize(proceso.sujetosProcesales).includes(needle)
       );
       setFilteredProcesos(filtered);
       setCurrentPage(1);
