@@ -28,5 +28,6 @@ jobs:
           git add public/procesos.json
           git diff --staged --quiet && echo "No changes to commit." || (
             git commit -m "chore: update judicial data [skip ci]" &&
+            git pull --rebase origin master &&
             git push
           )
