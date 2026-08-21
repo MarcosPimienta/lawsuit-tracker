@@ -4,6 +4,36 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// Ignore third-party browser extension errors (e.g. MetaMask inpage.js) from triggering CRA error overlay
+if (process.env.NODE_ENV === 'development') {
+  window.addEventListener('unhandledrejection', (event) => {
+    const reason = event.reason;
+    const stack = reason?.stack || String(reason || '');
+    const message = reason?.message || String(reason || '');
+    if (
+      stack.includes('chrome-extension://') ||
+      stack.includes('MetaMask') ||
+      message.includes('MetaMask')
+    ) {
+      event.stopImmediatePropagation();
+      event.preventDefault();
+    }
+  });
+
+  window.addEventListener('error', (event) => {
+    const stack = event.error?.stack || event.filename || '';
+    const message = event.message || '';
+    if (
+      stack.includes('chrome-extension://') ||
+      stack.includes('MetaMask') ||
+      message.includes('MetaMask')
+    ) {
+      event.stopImmediatePropagation();
+      event.preventDefault();
+    }
+  }, true);
+}
+
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );

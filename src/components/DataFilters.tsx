@@ -19,7 +19,7 @@ const DataFilters: React.FC<DataFiltersProps> = ({
       {/* Barra de búsqueda */}
       <input
         type="text"
-        placeholder="Buscar por nombre"
+        placeholder="Buscar por nombre, ID, radicación o despacho"
         value={searchTerm}
         onChange={handleSearchChange}
         className="search-input"

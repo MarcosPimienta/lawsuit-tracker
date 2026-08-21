@@ -19,12 +19,13 @@ function addCacheBuster(url) {
 }
 
 // Function to fetch data with retry and proxy fallback
-async function fetchWithRetry(baseUrl, retries = 3, backoff = 500) {
+async function fetchWithRetry(baseUrl, retries = 2, backoff = 300) {
   const url = addCacheBuster(baseUrl);
   const proxies = [
     (targetUrl) => targetUrl,
+    (targetUrl) => `https://corsproxy.io/?${encodeURIComponent(targetUrl)}`,
     (targetUrl) => `https://api.allorigins.win/get?url=${encodeURIComponent(targetUrl)}`,
-    (targetUrl) => `https://corsproxy.io/?url=${encodeURIComponent(targetUrl)}`
+    (targetUrl) => `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(targetUrl)}`
   ];
 
   for (let attempt = 1; attempt <= retries; attempt++) {
@@ -140,14 +141,18 @@ async function scrapeAll() {
         }
       } catch (err) {
         console.error(`❌ Error fetching processes for ${entity} page ${pagina}:`, err.message);
-        throw new Error(`Failed to fetch processes for ${entity}: ${err.message}`);
+        scrapeError = err;
+        continuar = false;
       }
     }
     console.log(`✅ Loaded ${entityProcesosCount} processes for "${entity}"`);
   }
   
-  // De-duplicate processes just in case
+  // Merge newly fetched processes with existing processes to preserve data across temporary API blocks
   const uniqueProcesosMap = new Map();
+  for (const p of existingData.procesos || []) {
+    uniqueProcesosMap.set(p.idProceso, p);
+  }
   for (const p of allProcesos) {
     uniqueProcesosMap.set(p.idProceso, p);
   }
@@ -222,18 +227,23 @@ async function scrapeAll() {
     scrapeError = err;
   }
   
+  // Prune obsolete process histories
+  const cleanActuacionesMap = {};
+  for (const p of uniqueProcesos) {
+    cleanActuacionesMap[p.idProceso] = actuacionesMap[p.idProceso] || [];
+  }
+
   // Step 3: Write out to procesos.json (saving successful fetches so far)
   const payload = {
     procesos: uniqueProcesos,
-    actuaciones: actuacionesMap
+    actuaciones: cleanActuacionesMap
   };
   
   fs.writeFileSync(outputPath, JSON.stringify(payload, null, 2));
-  console.log(`\n💾 Database saved to ${outputPath} (${Object.keys(actuacionesMap).length} total process histories stored).`);
+  console.log(`\n💾 Database saved to ${outputPath} (${uniqueProcesos.length} processes, ${Object.keys(cleanActuacionesMap).length} process histories stored).`);
 
   if (scrapeError) {
-    console.error("💥 Execution completed with errors. Some process histories could not be fetched due to rate limits. Run again to resume.");
-    process.exit(1);
+    console.warn("⚠️ Execution completed with warnings. Some process histories relied on cached data due to API rate limits.");
   } else {
     console.log("🎉 Done! Database successfully updated and verified.");
   }

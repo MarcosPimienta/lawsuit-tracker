@@ -41,9 +41,20 @@ const ProcesosList: React.FC = () => {
     } else {
       const normalize = (s: string) => s.toLowerCase().replace(/\s+/g, ' ').trim();
       const needle = normalize(searchTerm);
-      const filtered = procesos.filter((proceso) =>
-        normalize(proceso.sujetosProcesales).includes(needle)
-      );
+      const filtered = procesos.filter((proceso) => {
+        const sujetos = normalize(proceso.sujetosProcesales || '');
+        const llave = normalize(proceso.llaveProceso || '');
+        const id = String(proceso.idProceso || '');
+        const despacho = normalize(proceso.despacho || '');
+        const departamento = normalize(proceso.departamento || '');
+        return (
+          sujetos.includes(needle) ||
+          llave.includes(needle) ||
+          id.includes(needle) ||
+          despacho.includes(needle) ||
+          departamento.includes(needle)
+        );
+      });
       setFilteredProcesos(filtered);
       setCurrentPage(1);
     }
