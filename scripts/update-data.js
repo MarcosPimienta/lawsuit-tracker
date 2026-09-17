@@ -99,6 +99,7 @@ async function scrapeAll() {
   const existingActuaciones = existingData.actuaciones || {};
 
   const allProcesos = [];
+  let scrapeError = null;
   const actuacionesMap = { ...existingActuaciones };
   
   // Step 1: Fetch all processes for all entities
@@ -165,7 +166,6 @@ async function scrapeAll() {
   let cacheHits = 0;
   let apiFetches = 0;
   let consecutiveFailures = 0;
-  let scrapeError = null;
 
   try {
     for (let i = 0; i < uniqueProcesos.length; i++) {
