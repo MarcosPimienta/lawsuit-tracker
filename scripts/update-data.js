@@ -101,6 +101,7 @@ async function scrapeAll() {
 
   const allProcesos = [];
   let scrapeError = null;
+  let listingFailures = 0;
   const actuacionesMap = { ...existingActuaciones };
   
   // Step 1: Fetch all processes for all entities
@@ -144,6 +145,7 @@ async function scrapeAll() {
       } catch (err) {
         console.error(`❌ Error fetching processes for ${entity} page ${pagina}:`, err.message);
         scrapeError = err;
+        listingFailures++;
         continuar = false;
       }
     }
@@ -243,7 +245,11 @@ async function scrapeAll() {
   fs.writeFileSync(outputPath, JSON.stringify(payload, null, 2));
   console.log(`\n💾 Database saved to ${outputPath} (${uniqueProcesos.length} processes, ${Object.keys(cleanActuacionesMap).length} process histories stored).`);
 
-  if (scrapeError) {
+  if (listingFailures > 0) {
+    console.error(`\n❌ Could not list processes for ${listingFailures} search(es): the judicial API or every proxy was unreachable.`);
+    console.error("   Nothing new was discovered; existing data was preserved. Exiting with an error so the run is not reported as successful.");
+    process.exitCode = 1;
+  } else if (scrapeError) {
     console.warn("⚠️ Execution completed with warnings. Some process histories relied on cached data due to API rate limits.");
   } else {
     console.log("🎉 Done! Database successfully updated and verified.");
