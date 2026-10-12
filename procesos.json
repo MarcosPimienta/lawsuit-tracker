@@ -668,7 +668,7 @@
       "fechaUltimaActuacion": "2022-12-16T00:00:00",
       "despacho": "JUZGADO 011 CIVIL MUNICIPAL DE CALI ",
       "departamento": "VALLE DEL CAUCA",
-      "sujetosProcesales": "Demandante: FUNDACION CODERISE | Demandado: AIDA ISABEL DUQUE DELGADO | Demandado: DAVID ALEJANDRO ORTIZ DUQUE ",
+      "sujetosProcesales": "Demandante: FUNDACION CODERISE | Demandado: DAVID ALEJANDRO ORTIZ DUQUE | Demandado: AIDA ISABEL DUQUE DELGADO ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -824,7 +824,7 @@
       "fechaUltimaActuacion": "2026-02-09T00:00:00",
       "despacho": "JUZGADO 001 CIVIL MUNICIPAL DE MADRID ",
       "departamento": "CUNDINAMARCA",
-      "sujetosProcesales": "Demandante/accionante: FUNDACIÓN CODERISE EN LIQUIDACIÓN | Demandado/indiciado/causante: mARCELA DEL PILAR SOLER CHAVARRO  \r\n\t\t\t\t\t | Demandado/indiciado/causante: JOSE NICOLAS SOLER CHAVARRO  \r\n\t\t\t\t\t | Defensor Privado: DANIEL FELIPE MONTIEL\r\n\t\t\t\t\tVERA ",
+      "sujetosProcesales": "Demandante/accionante: FUNDACIÓN CODERISE EN LIQUIDACIÓN | Demandado/indiciado/causante: JOSE NICOLAS SOLER CHAVARRO  \r\n\t\t\t\t\t | Demandado/indiciado/causante: mARCELA DEL PILAR SOLER CHAVARRO  \r\n\t\t\t\t\t | Defensor Privado: DANIEL FELIPE MONTIEL\r\n\t\t\t\t\tVERA ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -872,7 +872,7 @@
       "fechaUltimaActuacion": "2026-03-12T00:00:00",
       "despacho": "JUZGADO 001 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE SANTA MARTA ",
       "departamento": "MAGDALENA",
-      "sujetosProcesales": "Demandante/accionante: CODERISE INTERNATIONAL | Demandado/indiciado/causante: WILLIAM  CONTRERAS BAYONA  \r\n\t\t\t\t\t | Demandado/indiciado/causante: DAIVER DANIEL CONTRERAS\r\n\t\t\t\t\tPLATA | Defensor Privado: WILLIAM ALBERTO FURNIELES\r\n\t\t\t\t\tROMERO ",
+      "sujetosProcesales": "Demandante/accionante: CODERISE INTERNATIONAL | Demandado/indiciado/causante: DAIVER DANIEL CONTRERAS\r\n\t\t\t\t\tPLATA | Demandado/indiciado/causante: WILLIAM  CONTRERAS BAYONA  \r\n\t\t\t\t\t | Defensor Privado: WILLIAM ALBERTO FURNIELES\r\n\t\t\t\t\tROMERO ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -1172,7 +1172,7 @@
       "fechaUltimaActuacion": "2025-09-16T00:00:00",
       "despacho": "JUZGADO 006 CIVIL MUNICIPAL DE CARTAGENA ",
       "departamento": "BOLÍVAR",
-      "sujetosProcesales": "Demandante/accionante: CODERISE INTERNACIONAL | Demandado/indiciado/causante: ESTEBAN DANIEL ARCHBOLD\r\n\t\t\t\t\tSALCEDO | Demandado/indiciado/causante: ENEDYS  SALCEDO\r\n\t\t\t\t\tVASQUEZ | Defensor Privado: DANIEL FELIPE MONTIEL\r\n\t\t\t\t\tVERA ",
+      "sujetosProcesales": "Demandante/accionante: CODERISE INTERNACIONAL | Demandado/indiciado/causante: ENEDYS  SALCEDO\r\n\t\t\t\t\tVASQUEZ | Demandado/indiciado/causante: ESTEBAN DANIEL ARCHBOLD\r\n\t\t\t\t\tSALCEDO | Defensor Privado: DANIEL FELIPE MONTIEL\r\n\t\t\t\t\tVERA ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -2792,7 +2792,7 @@
       "fechaUltimaActuacion": "2023-12-15T00:00:00",
       "despacho": "JUZGADO 011 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: wilman  Hernán\r\n\t\t\t\t\tLópez | Demandado/indiciado/causante: juan Daniel López\r\n\t\t\t\t\tGarcía (Emplazado) | Defensor Privado: HEBER LEANDRO MANRIQUE\r\n\t\t\t\t\tAYALA ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: juan Daniel López\r\n\t\t\t\t\tGarcía (Emplazado) | Demandado/indiciado/causante: wilman  Hernán\r\n\t\t\t\t\tLópez | Defensor Privado: HEBER LEANDRO MANRIQUE\r\n\t\t\t\t\tAYALA ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -4112,7 +4112,7 @@
       "fechaUltimaActuacion": "2026-10-08T00:00:00",
       "despacho": "DESPACHO 004 - JUZGADO MUNICIPAL - CIVIL - ITAGÜÍ *",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: CODERISE INTERNATIONAL | Demandado/indiciado/causante: HERNAN DARIO ECHEVERRY RAMIREZ | Demandado/indiciado/causante: DORA CONSUELO VELASQUEZ VELEZ ",
+      "sujetosProcesales": "Demandante/accionante: CODERISE INTERNATIONAL | Demandado/indiciado/causante: DORA CONSUELO VELASQUEZ VELEZ | Demandado/indiciado/causante: HERNAN DARIO ECHEVERRY RAMIREZ ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -4412,7 +4412,7 @@
       "fechaUltimaActuacion": "2026-10-08T00:00:00",
       "despacho": "JUZGADO 002 CIVIL MUNICIPAL DE BELLO ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: FUNDACIÓN CODERISE EN LIQUIDACION | Demandado/indiciado/causante: EDITH  MENDEZ\r\n\t\t\t\t\tANACONA | Demandado/indiciado/causante: YEFERSON JULIAN LOSADA\r\n\t\t\t\t\tMENDEZ | Defensor Privado: andrea tatiana uribe\r\n\t\t\t\t\tmariño ",
+      "sujetosProcesales": "Demandante/accionante: FUNDACIÓN CODERISE EN LIQUIDACION | Demandado/indiciado/causante: YEFERSON JULIAN LOSADA\r\n\t\t\t\t\tMENDEZ | Demandado/indiciado/causante: EDITH  MENDEZ\r\n\t\t\t\t\tANACONA | Defensor Privado: andrea tatiana uribe\r\n\t\t\t\t\tmariño ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -4448,7 +4448,7 @@
       "fechaUltimaActuacion": "2023-05-12T00:00:00",
       "despacho": "JUZGADO 001 CIVIL MUNICIPAL DE ENVIGADO ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: FIDEL FERNANDO CAICEDO CASTAÑO | Demandado/indiciado/causante: GLORIA BIVIANA CASTAÑO ARISTIZABAL ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: GLORIA BIVIANA CASTAÑO ARISTIZABAL | Demandado/indiciado/causante: FIDEL FERNANDO CAICEDO CASTAÑO ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -4544,7 +4544,7 @@
       "fechaUltimaActuacion": "2025-12-09T00:00:00",
       "despacho": "JUZGADO 025 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: JUAN ALBERTO LONDOÑO HERNANDEZ | Demandado/indiciado/causante: ANGIE VANESSA VASQUEZ ECHAVARRIA ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: ANGIE VANESSA VASQUEZ ECHAVARRIA | Demandado/indiciado/causante: JUAN ALBERTO LONDOÑO HERNANDEZ ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -4568,7 +4568,7 @@
       "fechaUltimaActuacion": "2024-06-18T00:00:00",
       "despacho": "JUZGADO 033 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: CARMEN GLORIA ALVAREZ HEREDIA  \r\n\t\t\t\t\t | Demandado/indiciado/causante: CRISTIAN CAMILO HEREDIA ALVAREZ  \r\n\t\t\t\t\t ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: CRISTIAN CAMILO HEREDIA ALVAREZ  \r\n\t\t\t\t\t | Demandado/indiciado/causante: CARMEN GLORIA ALVAREZ HEREDIA  \r\n\t\t\t\t\t ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -4580,7 +4580,7 @@
       "fechaUltimaActuacion": "2024-03-22T00:00:00",
       "despacho": "JUZGADO 007 CIVIL DEL CIRCUITO DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: CARMEN GLORIA ALVAREZ HEREDIA  \r\n\t\t\t\t\t | Demandado/indiciado/causante: CRISTIAN CAMILO HEREDIA ALVAREZ  \r\n\t\t\t\t\t ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: CRISTIAN CAMILO HEREDIA ALVAREZ  \r\n\t\t\t\t\t | Demandado/indiciado/causante: CARMEN GLORIA ALVAREZ HEREDIA  \r\n\t\t\t\t\t ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -4592,7 +4592,7 @@
       "fechaUltimaActuacion": "2026-06-05T00:00:00",
       "despacho": "JUZGADO 025 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: IBETHE VALENTINA RAMADA GIRALDO | Demandado/indiciado/causante: Amanda lucia giraldo\r\n\t\t\t\t\tquintero ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: Amanda lucia giraldo\r\n\t\t\t\t\tquintero | Demandado/indiciado/causante: IBETHE VALENTINA RAMADA GIRALDO ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -4796,7 +4796,7 @@
       "fechaUltimaActuacion": "2024-07-18T00:00:00",
       "despacho": "JUZGADO 004 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: LAURA CRISTINA GIL POSADA | Demandado/indiciado/causante: Jose ignacio gil\r\n\t\t\t\t\talzate ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: Jose ignacio gil\r\n\t\t\t\t\talzate | Demandado/indiciado/causante: LAURA CRISTINA GIL POSADA ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -4808,7 +4808,7 @@
       "fechaUltimaActuacion": "2026-08-05T00:00:00",
       "despacho": "JUZGADO 019 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: KAREN YULIANA PEÑA GOMEZ | Demandado/indiciado/causante: JOSE LUIS DIAZ CHARRASQUIEL ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: JOSE LUIS DIAZ CHARRASQUIEL | Demandado/indiciado/causante: KAREN YULIANA PEÑA GOMEZ ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -4832,7 +4832,7 @@
       "fechaUltimaActuacion": "2026-10-06T00:00:00",
       "despacho": "JUZGADO 003 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: MAGDA BARRETO | Demandado/indiciado/causante: RICARDO BARRETO ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: RICARDO BARRETO | Demandado/indiciado/causante: MAGDA BARRETO ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -4880,7 +4880,7 @@
       "fechaUltimaActuacion": "2023-07-28T00:00:00",
       "despacho": "JUZGADO 021 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: ELENA PABON ONTIVEROS | Demandado/indiciado/causante: JONATHAN ANDRES CARDENAS PABON ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: JONATHAN ANDRES CARDENAS PABON | Demandado/indiciado/causante: ELENA PABON ONTIVEROS ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -4976,7 +4976,7 @@
       "fechaUltimaActuacion": "2026-02-24T00:00:00",
       "despacho": "JUZGADO 023 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: OSCAR DAVID RIAÑOS TAPIAS | Demandado/indiciado/causante: LUZ ANGELA TAPIAS MONTOYA ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: LUZ ANGELA TAPIAS MONTOYA | Demandado/indiciado/causante: OSCAR DAVID RIAÑOS TAPIAS ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -4988,7 +4988,7 @@
       "fechaUltimaActuacion": "2026-09-03T00:00:00",
       "despacho": "JUZGADO 023 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: MARTHA LILIANA OSPINA MURILLO | Demandado/indiciado/causante: YERLISON MATURANA SERNA ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: YERLISON MATURANA SERNA | Demandado/indiciado/causante: MARTHA LILIANA OSPINA MURILLO ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -5000,7 +5000,7 @@
       "fechaUltimaActuacion": "2026-09-30T00:00:00",
       "despacho": "JUZGADO 007 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: EDUIN ALEXANDER RUA BRAN | Demandado/indiciado/causante: CRISTIAN ESTEBAN RUA GIRALDO ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: CRISTIAN ESTEBAN RUA GIRALDO | Demandado/indiciado/causante: EDUIN ALEXANDER RUA BRAN ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -5012,7 +5012,7 @@
       "fechaUltimaActuacion": "2026-08-26T00:00:00",
       "despacho": "JUZGADO 004 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: EDDY SANTIAGO ZAPATA HIGUITA | Demandado/indiciado/causante: HENRY ALEXIS ZAPATA CHAVARRIA ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: HENRY ALEXIS ZAPATA CHAVARRIA | Demandado/indiciado/causante: EDDY SANTIAGO ZAPATA HIGUITA ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -5036,7 +5036,7 @@
       "fechaUltimaActuacion": "2026-02-24T00:00:00",
       "despacho": "JUZGADO 013 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: DANIEL CASTAÑO GOMEZ | Demandado/indiciado/causante: ERIKA MARIA GOMEZ RIVILLAS ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: ERIKA MARIA GOMEZ RIVILLAS | Demandado/indiciado/causante: DANIEL CASTAÑO GOMEZ ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -5048,7 +5048,7 @@
       "fechaUltimaActuacion": "2026-02-24T00:00:00",
       "despacho": "JUZGADO 013 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: BEATRIZ QUESADA CUESTA | Demandado/indiciado/causante: JOSE JAVIER DIAZ QUESASA ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: JOSE JAVIER DIAZ QUESASA | Demandado/indiciado/causante: BEATRIZ QUESADA CUESTA ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -5132,7 +5132,7 @@
       "fechaUltimaActuacion": "2025-10-29T00:00:00",
       "despacho": "JUZGADO 015 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: FUNDACIÓN CODERISE EN LIQUIDACION | Demandado/indiciado/causante: JHONATHAN GREGORIO GONZALEZ SANDOVAL | Demandado/indiciado/causante: JULIAN FERNANDO SANDOVAL ",
+      "sujetosProcesales": "Demandante/accionante: FUNDACIÓN CODERISE EN LIQUIDACION | Demandado/indiciado/causante: JULIAN FERNANDO SANDOVAL | Demandado/indiciado/causante: JHONATHAN GREGORIO GONZALEZ SANDOVAL ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -5168,7 +5168,7 @@
       "fechaUltimaActuacion": "2024-05-29T00:00:00",
       "despacho": "JUZGADO 016 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: JOSHUA HERNANDEZ MARTINEZ | Demandado/indiciado/causante: TATIANA HERNANDEZ MARTINEZ ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: TATIANA HERNANDEZ MARTINEZ | Demandado/indiciado/causante: JOSHUA HERNANDEZ MARTINEZ ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -5192,7 +5192,7 @@
       "fechaUltimaActuacion": "2026-10-08T00:00:00",
       "despacho": "JUZGADO 009 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: MARTHA DILIA CASTRO RAMIREZ | Demandado/indiciado/causante: JONATAN RICARDO MAZO CASTRO ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: JONATAN RICARDO MAZO CASTRO | Demandado/indiciado/causante: MARTHA DILIA CASTRO RAMIREZ ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -5216,7 +5216,7 @@
       "fechaUltimaActuacion": "2026-03-06T00:00:00",
       "despacho": "JUZGADO 017 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: ANDRES DAVID PATIÑO | Demandado/indiciado/causante: MARIA DEL PILAR CALLE\r\n\t\t\t\t\tHERNANDEZ ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: MARIA DEL PILAR CALLE\r\n\t\t\t\t\tHERNANDEZ | Demandado/indiciado/causante: ANDRES DAVID PATIÑO ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -5240,7 +5240,7 @@
       "fechaUltimaActuacion": "2026-03-06T00:00:00",
       "despacho": "JUZGADO 017 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: FUNDACION CODERISE | Demandado/indiciado/causante: THOMAS MONTOYA ALVAREZ | Demandado/indiciado/causante: GLORIA INES MPONTOYA ALVAREZ ",
+      "sujetosProcesales": "Demandante/accionante: FUNDACION CODERISE | Demandado/indiciado/causante: GLORIA INES MPONTOYA ALVAREZ | Demandado/indiciado/causante: THOMAS MONTOYA ALVAREZ ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -5252,7 +5252,7 @@
       "fechaUltimaActuacion": "2026-09-30T00:00:00",
       "despacho": "JUZGADO 004 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: LAURA ALEJANDRA GUZMAN | Demandado/indiciado/causante: JUAN JOSE FLOREZ ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: JUAN JOSE FLOREZ | Demandado/indiciado/causante: LAURA ALEJANDRA GUZMAN ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -5264,7 +5264,7 @@
       "fechaUltimaActuacion": "2024-03-01T00:00:00",
       "despacho": "JUZGADO 016 CIVIL DEL CIRCUITO DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: DAVID AGUDELO THERAN | Demandado/indiciado/causante: NANCY THERAN CONTRERAS ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: NANCY THERAN CONTRERAS | Demandado/indiciado/causante: DAVID AGUDELO THERAN ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -5300,7 +5300,7 @@
       "fechaUltimaActuacion": "2025-06-13T00:00:00",
       "despacho": "JUZGADO 010 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: ANDRES FELIPE DUQUE | Demandado/indiciado/causante: MARIA OLGA SALGADO CARDOZO ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: MARIA OLGA SALGADO CARDOZO | Demandado/indiciado/causante: ANDRES FELIPE DUQUE ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -5312,7 +5312,7 @@
       "fechaUltimaActuacion": "2026-06-02T00:00:00",
       "despacho": "JUZGADO 003 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: CODERISE INTERNATIONAL | Demandado/indiciado/causante: EDUARDO ANTONIO ZUÑIGA ATEHORTUA | Demandado/indiciado/causante: GLADIS ESTELA ATEHORTUA\r\n\t\t\t\t\tMEJIA ",
+      "sujetosProcesales": "Demandante/accionante: CODERISE INTERNATIONAL | Demandado/indiciado/causante: GLADIS ESTELA ATEHORTUA\r\n\t\t\t\t\tMEJIA | Demandado/indiciado/causante: EDUARDO ANTONIO ZUÑIGA ATEHORTUA ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -5324,7 +5324,7 @@
       "fechaUltimaActuacion": "2024-05-29T00:00:00",
       "despacho": "JUZGADO 007 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: JUAN JOSE ARANGO DIAZ | Demandado/indiciado/causante: YENNIFER MARCELA TOBON\r\n\t\t\t\t\tYATE ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: YENNIFER MARCELA TOBON\r\n\t\t\t\t\tYATE | Demandado/indiciado/causante: JUAN JOSE ARANGO DIAZ ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -5336,7 +5336,7 @@
       "fechaUltimaActuacion": "2026-03-11T00:00:00",
       "despacho": "JUZGADO 007 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: CARMEN NORA BEDOYA GONZALEZ | Demandado/indiciado/causante: CRISTIAN DAVID BEDOYA BLANCO ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: CRISTIAN DAVID BEDOYA BLANCO | Demandado/indiciado/causante: CARMEN NORA BEDOYA GONZALEZ ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -5372,7 +5372,7 @@
       "fechaUltimaActuacion": "2023-09-29T00:00:00",
       "despacho": "JUZGADO 009 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: CLAUDIA PATRICIA RESTREPO | Demandado/indiciado/causante: JUAN ESTEBAN ARANGO RESTREPO ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: JUAN ESTEBAN ARANGO RESTREPO | Demandado/indiciado/causante: CLAUDIA PATRICIA RESTREPO ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -5396,7 +5396,7 @@
       "fechaUltimaActuacion": "2026-03-16T00:00:00",
       "despacho": "JUZGADO 010 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: DANIEL CASTAÑO GOMEZ | Demandado/indiciado/causante: ERIKA MARIA GOMEZ RIVILLAS ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: ERIKA MARIA GOMEZ RIVILLAS | Demandado/indiciado/causante: DANIEL CASTAÑO GOMEZ ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -5420,7 +5420,7 @@
       "fechaUltimaActuacion": "2024-02-07T00:00:00",
       "despacho": "JUZGADO 009 CIVIL DEL CIRCUITO DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: EDWIN WILFRED ESPINAL GUALDRON | Demandado/indiciado/causante: LUZ HELENA CORTES GOMEZ ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: LUZ HELENA CORTES GOMEZ | Demandado/indiciado/causante: EDWIN WILFRED ESPINAL GUALDRON ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -5444,7 +5444,7 @@
       "fechaUltimaActuacion": "2023-04-25T00:00:00",
       "despacho": "JUZGADO 011 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: MARLIN ARELIS LUNA\r\n\t\t\t\t\tPARICA | Demandado/indiciado/causante: cRISTIAN DAVID BETANCUR\r\n\t\t\t\t\tGALÁN ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: cRISTIAN DAVID BETANCUR\r\n\t\t\t\t\tGALÁN | Demandado/indiciado/causante: MARLIN ARELIS LUNA\r\n\t\t\t\t\tPARICA ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -5456,7 +5456,7 @@
       "fechaUltimaActuacion": "2023-10-18T00:00:00",
       "despacho": "JUZGADO 011 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: ORLEY FELIPE VELASQUEZ VEGA | Demandado/indiciado/causante: SERGIO LUIS VELASQUEZ CARVAL ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: SERGIO LUIS VELASQUEZ CARVAL | Demandado/indiciado/causante: ORLEY FELIPE VELASQUEZ VEGA ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -5480,7 +5480,7 @@
       "fechaUltimaActuacion": "2023-01-25T00:00:00",
       "despacho": "JUZGADO 012 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: ADRIANA LETICIA CHINOME CELY | Demandado/indiciado/causante: DANIEL ALFONSO ANGARITA CHINOME ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: DANIEL ALFONSO ANGARITA CHINOME | Demandado/indiciado/causante: ADRIANA LETICIA CHINOME CELY ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -5492,7 +5492,7 @@
       "fechaUltimaActuacion": "2026-09-29T00:00:00",
       "despacho": "JUZGADO 010 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: ELIZABETH TRINIDAD CHICA RESTREPO | Demandado/indiciado/causante: ANDRES FELIPE VASQUEZ CHICA ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: ANDRES FELIPE VASQUEZ CHICA | Demandado/indiciado/causante: ELIZABETH TRINIDAD CHICA RESTREPO ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -5588,7 +5588,7 @@
       "fechaUltimaActuacion": "2026-08-14T00:00:00",
       "despacho": "JUZGADO 002 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: JUAN DIEGO QUINTERO MORENO | Demandado/indiciado/causante: LUZ MARY MORENO\r\n\t\t\t\t\tISAZA ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: LUZ MARY MORENO\r\n\t\t\t\t\tISAZA | Demandado/indiciado/causante: JUAN DIEGO QUINTERO MORENO ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -5612,7 +5612,7 @@
       "fechaUltimaActuacion": "2026-05-11T00:00:00",
       "despacho": "JUZGADO 003 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: JUAN DAVID RESTREPO ZAMBRANO | Demandado/indiciado/causante: MARIA CECILIA ZAMBRANO VESGA ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: MARIA CECILIA ZAMBRANO VESGA | Demandado/indiciado/causante: JUAN DAVID RESTREPO ZAMBRANO ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -5672,7 +5672,7 @@
       "fechaUltimaActuacion": "2024-05-29T00:00:00",
       "despacho": "JUZGADO 005 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: FUNDACIÓN CODERISE EN LIQUIDACION | Demandado/indiciado/causante: MARLON SANTIAGO ARBOLEDA LONDOÑO | Demandado/indiciado/causante: MARTIN ARBOLEDA MONTOYA ",
+      "sujetosProcesales": "Demandante/accionante: FUNDACIÓN CODERISE EN LIQUIDACION | Demandado/indiciado/causante: MARTIN ARBOLEDA MONTOYA | Demandado/indiciado/causante: MARLON SANTIAGO ARBOLEDA LONDOÑO ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -5684,7 +5684,7 @@
       "fechaUltimaActuacion": "2026-02-25T00:00:00",
       "despacho": "JUZGADO 006 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: DIEGO LEON ZAPATA MOLINA | Demandado/indiciado/causante: BRIAYAN EXNAIDER ZAPATA PINO ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: BRIAYAN EXNAIDER ZAPATA PINO | Demandado/indiciado/causante: DIEGO LEON ZAPATA MOLINA ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -5696,7 +5696,7 @@
       "fechaUltimaActuacion": "2026-02-25T00:00:00",
       "despacho": "JUZGADO 006 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: DAVID AGUDELO THERAN | Demandado/indiciado/causante: NANCY THERAN CONTRERAS ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: NANCY THERAN CONTRERAS | Demandado/indiciado/causante: DAVID AGUDELO THERAN ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -5876,7 +5876,7 @@
       "fechaUltimaActuacion": "2026-09-19T00:00:00",
       "despacho": "JUZGADO 006 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE CALI ",
       "departamento": "VALLE DEL CAUCA",
-      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: LUZ HELENA VALENCIA  \r\n\t\t\t\t\t | Demandado/indiciado/causante: JUAN EDUARDO GOMEZ VALENCIA  \r\n\t\t\t\t\t | Defensor Privado: DIEGO ANDRES DIAZ\r\n\t\t\t\t\tVEGA ",
+      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: JUAN EDUARDO GOMEZ VALENCIA  \r\n\t\t\t\t\t | Demandado/indiciado/causante: LUZ HELENA VALENCIA  \r\n\t\t\t\t\t | Defensor Privado: DIEGO ANDRES DIAZ\r\n\t\t\t\t\tVEGA ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -5936,7 +5936,7 @@
       "fechaUltimaActuacion": "2026-08-21T00:00:00",
       "despacho": "JUZGADO 001 CIVIL DEL CIRCUITO DE ARCH. DE SAN ANDRÉS ",
       "departamento": "SAN ANDRÉS",
-      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandante/accionante: y otros demandantes | Demandado/indiciado/causante: Y OTROS DEMANDADOS- | Demandado/indiciado/causante: JUZGADO SEGUNDO CIVIL MUNICIPAL DE SAN ANDRES ISLAS. ",
+      "sujetosProcesales": "Demandante/accionante: y otros demandantes | Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: Y OTROS DEMANDADOS- | Demandado/indiciado/causante: JUZGADO SEGUNDO CIVIL MUNICIPAL DE SAN ANDRES ISLAS. ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -5984,7 +5984,7 @@
       "fechaUltimaActuacion": "2026-03-26T00:00:00",
       "despacho": "JUZGADO 001 CIVIL DEL CIRCUITO DE MONTERÍA ",
       "departamento": "CÓRDOBA",
-      "sujetosProcesales": "Demandante/accionante: MAURICIO ALEJANDRO BRAVO\r\n\t\t\t\t\tSANCHEZ | Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandante/accionante: DIEGO ANDRES DIAZ\r\n\t\t\t\t\tVEGA | Demandante/accionante: WILLIAM ALBERTO FURNIELES\r\n\t\t\t\t\tROMERO | Demandado/indiciado/causante: Juzgados de Pequenas Causas y Competencia Multiple de Monteria | Demandado/indiciado/causante: Juzgados Civiles Municipales de Monteria. | Representante legal: andrea tatiana uribe\r\n\t\t\t\t\tmariño ",
+      "sujetosProcesales": "Demandante/accionante: WILLIAM ALBERTO FURNIELES\r\n\t\t\t\t\tROMERO | Demandante/accionante: MAURICIO ALEJANDRO BRAVO\r\n\t\t\t\t\tSANCHEZ | Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandante/accionante: DIEGO ANDRES DIAZ\r\n\t\t\t\t\tVEGA | Demandado/indiciado/causante: Juzgados de Pequenas Causas y Competencia Multiple de Monteria | Demandado/indiciado/causante: Juzgados Civiles Municipales de Monteria. | Representante legal: andrea tatiana uribe\r\n\t\t\t\t\tmariño ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -6056,7 +6056,7 @@
       "fechaUltimaActuacion": "2026-04-16T00:00:00",
       "despacho": "JUZGADO 004 CIVIL DEL CIRCUITO DE VILLAVICENCIO ",
       "departamento": "META",
-      "sujetosProcesales": "Demandante/accionante: MAURICIO ALEJANDRO BRAVO\r\n\t\t\t\t\tSANCHEZ | Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandante/accionante: DIEGO ANDRES DIAZ\r\n\t\t\t\t\tVEGA | Demandante/accionante: WILLIAM ALBERTO FURNIELES\r\n\t\t\t\t\tROMERO | Demandante/accionante: andrea tatiana uribe\r\n\t\t\t\t\tmariño | Demandado/indiciado/causante: JUZGADO MINICIPAL - CIVIL 11 VILLAVICENCIO ",
+      "sujetosProcesales": "Demandante/accionante: andrea tatiana uribe\r\n\t\t\t\t\tmariño | Demandante/accionante: WILLIAM ALBERTO FURNIELES\r\n\t\t\t\t\tROMERO | Demandante/accionante: MAURICIO ALEJANDRO BRAVO\r\n\t\t\t\t\tSANCHEZ | Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandante/accionante: DIEGO ANDRES DIAZ\r\n\t\t\t\t\tVEGA | Demandado/indiciado/causante: JUZGADO MINICIPAL - CIVIL 11 VILLAVICENCIO ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -6872,7 +6872,7 @@
       "fechaUltimaActuacion": "2025-05-14T00:00:00",
       "despacho": "JUZGADO 029 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: LUIS FERNANDO CARABALI ARRECHEA | Demandado/indiciado/causante: JUAN JOSE CARABALI HURTADO ",
+      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: JUAN JOSE CARABALI HURTADO | Demandado/indiciado/causante: LUIS FERNANDO CARABALI ARRECHEA ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -6884,7 +6884,7 @@
       "fechaUltimaActuacion": "2025-12-15T00:00:00",
       "despacho": "JUZGADO 029 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: LINA MARCELA VELEZ OCAMPO | Demandado/indiciado/causante: MIGUEL ANGEL VELEZ OCAMPO ",
+      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: MIGUEL ANGEL VELEZ OCAMPO | Demandado/indiciado/causante: LINA MARCELA VELEZ OCAMPO ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -6896,7 +6896,7 @@
       "fechaUltimaActuacion": "2026-09-08T00:00:00",
       "despacho": "JUZGADO 029 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: LINA MARCELA VELEZ OCAMPO | Demandado/indiciado/causante: MIGUEL ANGEL VELEZ OCAMPO ",
+      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: MIGUEL ANGEL VELEZ OCAMPO | Demandado/indiciado/causante: LINA MARCELA VELEZ OCAMPO ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -6968,7 +6968,7 @@
       "fechaUltimaActuacion": "2026-03-20T00:00:00",
       "despacho": "DESPACHO 035 - JUZGADO MUNICIPAL - CIVIL - MEDELLÍN *",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: CIRO GERMAN OCANA | Demandado/indiciado/causante: ANDRES FELIPE OCAÑA ",
+      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: ANDRES FELIPE OCAÑA | Demandado/indiciado/causante: CIRO GERMAN OCANA ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -7064,7 +7064,7 @@
       "fechaUltimaActuacion": "2025-11-11T00:00:00",
       "despacho": "JUZGADO 003 CIVIL MUNICIPAL DE BELLO ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: FERNANDA CECILIA ORTIZ VALENCIA | Demandado/indiciado/causante: RONAL ANTONIO AGUIRRE VILLALOBOS ",
+      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: RONAL ANTONIO AGUIRRE VILLALOBOS | Demandado/indiciado/causante: FERNANDA CECILIA ORTIZ VALENCIA ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -7184,7 +7184,7 @@
       "fechaUltimaActuacion": "2025-08-15T00:00:00",
       "despacho": "JUZGADO 021 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: Jhon Arias | Demandado/indiciado/causante: RUBIELA MONTOYA HENAO ",
+      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: RUBIELA MONTOYA HENAO | Demandado/indiciado/causante: Jhon Arias ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -7220,7 +7220,7 @@
       "fechaUltimaActuacion": "2025-04-21T00:00:00",
       "despacho": "JUZGADO 026 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: LUIS FERNANDO CARABALI ARRECHEA | Demandado/indiciado/causante: JUAN JOSE CARABALI HURTADO ",
+      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: JUAN JOSE CARABALI HURTADO | Demandado/indiciado/causante: LUIS FERNANDO CARABALI ARRECHEA ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -7256,7 +7256,7 @@
       "fechaUltimaActuacion": "2024-10-10T00:00:00",
       "despacho": "JUZGADO 028 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: MARIA GRETEL ALVAREZ GIRALDO | Demandado/indiciado/causante: VALERIA ALVAREZ GIRALDO ",
+      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: VALERIA ALVAREZ GIRALDO | Demandado/indiciado/causante: MARIA GRETEL ALVAREZ GIRALDO ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -7280,7 +7280,7 @@
       "fechaUltimaActuacion": "2025-04-25T00:00:00",
       "despacho": "JUZGADO 028 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: TOMAS GOMEZ VELEZ | Demandado/indiciado/causante: JULIO GOMEZ GIRALDO ",
+      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: JULIO GOMEZ GIRALDO | Demandado/indiciado/causante: TOMAS GOMEZ VELEZ ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -7316,7 +7316,7 @@
       "fechaUltimaActuacion": "2026-02-02T00:00:00",
       "despacho": "JUZGADO 006 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: MICHEL YOJHANA CABALLERO | Demandado/indiciado/causante: MARITZA  GRANADO\r\n\t\t\t\t\tBEDOYA ",
+      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: MARITZA  GRANADO\r\n\t\t\t\t\tBEDOYA | Demandado/indiciado/causante: MICHEL YOJHANA CABALLERO ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -7340,7 +7340,7 @@
       "fechaUltimaActuacion": "2026-05-15T00:00:00",
       "despacho": "JUZGADO 008 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: PABLO ANDRES SANCHEZ MONSALVE | Demandado/indiciado/causante: LAURA MARIA VALENCIA QUINTERO ",
+      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: LAURA MARIA VALENCIA QUINTERO | Demandado/indiciado/causante: PABLO ANDRES SANCHEZ MONSALVE ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -7376,7 +7376,7 @@
       "fechaUltimaActuacion": "2025-01-23T00:00:00",
       "despacho": "JUZGADO 008 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: JUAN DAVIS RESTREPO ZAMBRANO | Demandado/indiciado/causante: MARIA CECILIA ZAMBRANO VESGA ",
+      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: MARIA CECILIA ZAMBRANO VESGA | Demandado/indiciado/causante: JUAN DAVIS RESTREPO ZAMBRANO ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -7424,7 +7424,7 @@
       "fechaUltimaActuacion": "2026-06-18T00:00:00",
       "despacho": "JUZGADO 007 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: CARLOS ALBERTO RINCON ALVAREZ | Demandado/indiciado/causante: BLANCA NUBIA ALVARES\r\n\t\t\t\t\tMONTOYA ",
+      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: BLANCA NUBIA ALVARES\r\n\t\t\t\t\tMONTOYA | Demandado/indiciado/causante: CARLOS ALBERTO RINCON ALVAREZ ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -7448,7 +7448,7 @@
       "fechaUltimaActuacion": "2026-05-06T00:00:00",
       "despacho": "JUZGADO 010 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: AIDA CRISTINA BETANCUR URIBE | Demandado/indiciado/causante: SANTIAGO ESPEJO BETANCUR ",
+      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: SANTIAGO ESPEJO BETANCUR | Demandado/indiciado/causante: AIDA CRISTINA BETANCUR URIBE ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -7472,7 +7472,7 @@
       "fechaUltimaActuacion": "2026-04-14T00:00:00",
       "despacho": "JUZGADO 012 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: EDUARD ARTURO MORENO TANGARIFE | Demandado/indiciado/causante: GLORIA FAVIANA CARDONA ESPINAL ",
+      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: GLORIA FAVIANA CARDONA ESPINAL | Demandado/indiciado/causante: EDUARD ARTURO MORENO TANGARIFE ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -7508,7 +7508,7 @@
       "fechaUltimaActuacion": "2024-06-17T00:00:00",
       "despacho": "JUZGADO 015 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: FERNANDA CECILIA ORTIZ VALENCIA | Demandado/indiciado/causante: RONAL ANTONIO AGUIRRE VILLALOBOS ",
+      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: RONAL ANTONIO AGUIRRE VILLALOBOS | Demandado/indiciado/causante: FERNANDA CECILIA ORTIZ VALENCIA ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -7544,7 +7544,7 @@
       "fechaUltimaActuacion": "2025-02-06T00:00:00",
       "despacho": "JUZGADO 001 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: TOMAS MEJIA ESTRADA | Demandado/indiciado/causante: JUAN GONZALO MEJIA MARTINEZ ",
+      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: JUAN GONZALO MEJIA MARTINEZ | Demandado/indiciado/causante: TOMAS MEJIA ESTRADA ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -7580,7 +7580,7 @@
       "fechaUltimaActuacion": "2025-10-22T00:00:00",
       "despacho": "JUZGADO 002 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: NASSER ABRAHAM ABUCHAIBE GONZALEZ | Demandado/indiciado/causante: KATERINE LOPEZ DIAS ",
+      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: KATERINE LOPEZ DIAS | Demandado/indiciado/causante: NASSER ABRAHAM ABUCHAIBE GONZALEZ ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -7592,7 +7592,7 @@
       "fechaUltimaActuacion": "2025-11-26T00:00:00",
       "despacho": "JUZGADO 002 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: NIDIA MUÑOZ VALERO | Demandado/indiciado/causante: EDWARD OSORNO MUÑOZ ",
+      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: EDWARD OSORNO MUÑOZ | Demandado/indiciado/causante: NIDIA MUÑOZ VALERO ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -7616,7 +7616,7 @@
       "fechaUltimaActuacion": "2025-11-25T00:00:00",
       "despacho": "JUZGADO 003 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: CARLOS ANDRES MURCIA MUÑOZ | Demandado/indiciado/causante: MARIA DEL CARMEN MUÑOZ MUÑOZ ",
+      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: MARIA DEL CARMEN MUÑOZ MUÑOZ | Demandado/indiciado/causante: CARLOS ANDRES MURCIA MUÑOZ ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -7628,7 +7628,7 @@
       "fechaUltimaActuacion": "2026-06-01T00:00:00",
       "despacho": "JUZGADO 003 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: GLADYS MARYELY SEPÚLVEDA JIMENEZ | Demandado/indiciado/causante: ANDRÉS FELIPE SEPÚLVEDA JIMENEZ ",
+      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: ANDRÉS FELIPE SEPÚLVEDA JIMENEZ | Demandado/indiciado/causante: GLADYS MARYELY SEPÚLVEDA JIMENEZ ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -7664,7 +7664,7 @@
       "fechaUltimaActuacion": "2026-10-05T00:00:00",
       "despacho": "JUZGADO 006 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: GRACIELA PINO ARANGO | Demandado/indiciado/causante: CRISTIAN MARTINEZ PINO ",
+      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: CRISTIAN MARTINEZ PINO | Demandado/indiciado/causante: GRACIELA PINO ARANGO ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -7700,7 +7700,7 @@
       "fechaUltimaActuacion": "2025-09-04T00:00:00",
       "despacho": "JUZGADO 006 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: LUIS MIGUEL VARGAS GUEVARA | Demandado/indiciado/causante: ISABEL CRISTINA ORTEGA BEDOYA ",
+      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: ISABEL CRISTINA ORTEGA BEDOYA | Demandado/indiciado/causante: LUIS MIGUEL VARGAS GUEVARA ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -8576,7 +8576,7 @@
       "fechaUltimaActuacion": "2026-08-19T00:00:00",
       "despacho": "JUZGADO 014 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: FIDEICOMISO ACADEMIA DE SOFTWARE DE ANTIOQUIA | Demandado/indiciado/causante: JOHAN SNEYDER SANCHEZ BALBIN | Demandado/indiciado/causante: MAURO ANTONIO SANCHEZ OSORIO ",
+      "sujetosProcesales": "Demandante/accionante: FIDEICOMISO ACADEMIA DE SOFTWARE DE ANTIOQUIA | Demandado/indiciado/causante: MAURO ANTONIO SANCHEZ OSORIO | Demandado/indiciado/causante: JOHAN SNEYDER SANCHEZ BALBIN ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -8588,7 +8588,7 @@
       "fechaUltimaActuacion": "2026-07-14T00:00:00",
       "despacho": "DESPACHO 036 - JUZGADO MUNICIPAL - CIVIL - MEDELLÍN *",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: FIDEICOMISO ACADEMIA DE SOFTWARE DE CALI | Demandado/indiciado/causante: LILIANA PATRICIA CICEROS GALLON | Demandado/indiciado/causante: ALEJANDRO RAMIREZ CICEROS ",
+      "sujetosProcesales": "Demandante/accionante: FIDEICOMISO ACADEMIA DE SOFTWARE DE CALI | Demandado/indiciado/causante: ALEJANDRO RAMIREZ CICEROS | Demandado/indiciado/causante: LILIANA PATRICIA CICEROS GALLON ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -8612,7 +8612,7 @@
       "fechaUltimaActuacion": "2025-02-25T00:00:00",
       "despacho": "JUZGADO 023 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: FIDEICOMISO ACADEMIA DE SOFTWARE DE ANTIOQUIA | Demandado/indiciado/causante: MARCIAL ORCAR ARRIETA PATERNINA | Demandado/indiciado/causante: LUIGGY ANDRES ARRIETA MORENO ",
+      "sujetosProcesales": "Demandante/accionante: FIDEICOMISO ACADEMIA DE SOFTWARE DE ANTIOQUIA | Demandado/indiciado/causante: LUIGGY ANDRES ARRIETA MORENO | Demandado/indiciado/causante: MARCIAL ORCAR ARRIETA PATERNINA ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -9680,7 +9680,7 @@
       "fechaUltimaActuacion": "2026-07-01T00:00:00",
       "despacho": "JUZGADO 001 PROMISCUO MUNICIPAL DE COPACABANA ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: BRAYAN DAVID POLO\r\n\t\t\t\t\tCOHEN | Demandado/indiciado/causante: lumni colombia s.a.s | Demandado/indiciado/causante: RAPPIPAY COMPANIA DE FINANCIAMIENTO | Demandado/indiciado/causante: PRA GROUP COLOMBIA HOLDING S.A.S. | Defensor Privado: ANDRES JULIAN DELGADO\r\n\t\t\t\t\tGONZALEZ ",
+      "sujetosProcesales": "Demandante/accionante: BRAYAN DAVID POLO\r\n\t\t\t\t\tCOHEN | Demandado/indiciado/causante: PRA GROUP COLOMBIA HOLDING S.A.S. | Demandado/indiciado/causante: RAPPIPAY COMPANIA DE FINANCIAMIENTO | Demandado/indiciado/causante: lumni colombia s.a.s | Defensor Privado: ANDRES JULIAN DELGADO\r\n\t\t\t\t\tGONZALEZ ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -10160,7 +10160,7 @@
       "fechaUltimaActuacion": "2026-08-24T00:00:00",
       "despacho": "JUZGADO 015 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS  \r\n\t\t\t\t\t | Demandado/indiciado/causante: NIDIA ARGELI MUÑOZ VALERO  \r\n\t\t\t\t\t | Demandado/indiciado/causante: EDWAR OSORNO MUÑOZ  \r\n\t\t\t\t\t | Defensor Privado: DANIEL FELIPE MONTIEL\r\n\t\t\t\t\tVERA ",
+      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS  \r\n\t\t\t\t\t | Demandado/indiciado/causante: EDWAR OSORNO MUÑOZ  \r\n\t\t\t\t\t | Demandado/indiciado/causante: NIDIA ARGELI MUÑOZ VALERO  \r\n\t\t\t\t\t | Defensor Privado: DANIEL FELIPE MONTIEL\r\n\t\t\t\t\tVERA ",
       "esPrivado": false,
       "cantFilas": -1
     },
