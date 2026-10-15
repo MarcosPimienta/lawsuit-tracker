@@ -89,7 +89,7 @@
       "idConexion": 240,
       "llaveProceso": "76001400303320220061900",
       "fechaProceso": "2022-09-21T00:00:00",
-      "fechaUltimaActuacion": "2026-10-05T00:00:00",
+      "fechaUltimaActuacion": "2026-10-14T00:00:00",
       "despacho": "JUZGADO 010 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE CALI ",
       "departamento": "VALLE DEL CAUCA",
       "sujetosProcesales": "Demandante: FUNDACION CODERISE | Demandado: DORA ZAMBRANO | Demandado: JUAN JOSE DELGADO ",
@@ -605,7 +605,7 @@
       "idConexion": 240,
       "llaveProceso": "76001400300820240121700",
       "fechaProceso": "2024-12-02T00:00:00",
-      "fechaUltimaActuacion": "2026-06-16T00:00:00",
+      "fechaUltimaActuacion": "2026-10-14T00:00:00",
       "despacho": "JUZGADO 010 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE CALI ",
       "departamento": "VALLE DEL CAUCA",
       "sujetosProcesales": "Demandante: CODERISE INTERNATIONAL | Demandado: IVAN CAMILO OCAMPO RODRIGUEZ | Demandado: KAREN LIZETH MENDEZ HERNANDEZ ",
@@ -836,7 +836,7 @@
       "fechaUltimaActuacion": "2026-09-14T00:00:00",
       "despacho": "DESPACHO 002 - JUZGADO MUNICIPAL - CIVIL - MADRID *",
       "departamento": "CUNDINAMARCA",
-      "sujetosProcesales": "Demandante/accionante: FUNDACIÓN CODERISE EN LIQUIDACIÓN | Demandado/indiciado/causante: WILLIAM ANDRES RODRIGUEZ BORJA  \r\n\t\t\t\t\t | Demandado/indiciado/causante: ANGUI YESELI CLAVIJO GUTIERREZ  \r\n\t\t\t\t\t | Defensor Privado: DIEGO ANDRES DIAZ\r\n\t\t\t\t\tVEGA ",
+      "sujetosProcesales": "Demandante/accionante: FUNDACIÓN CODERISE EN LIQUIDACIÓN | Demandado/indiciado/causante: ANGUI YESELI CLAVIJO GUTIERREZ  \r\n\t\t\t\t\t | Demandado/indiciado/causante: WILLIAM ANDRES RODRIGUEZ BORJA  \r\n\t\t\t\t\t | Defensor Privado: DIEGO ANDRES DIAZ\r\n\t\t\t\t\tVEGA ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -872,7 +872,7 @@
       "fechaUltimaActuacion": "2026-03-12T00:00:00",
       "despacho": "JUZGADO 001 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE SANTA MARTA ",
       "departamento": "MAGDALENA",
-      "sujetosProcesales": "Demandante/accionante: CODERISE INTERNATIONAL | Demandado/indiciado/causante: DAIVER DANIEL CONTRERAS\r\n\t\t\t\t\tPLATA | Demandado/indiciado/causante: WILLIAM  CONTRERAS BAYONA  \r\n\t\t\t\t\t | Defensor Privado: WILLIAM ALBERTO FURNIELES\r\n\t\t\t\t\tROMERO ",
+      "sujetosProcesales": "Demandante/accionante: CODERISE INTERNATIONAL | Demandado/indiciado/causante: WILLIAM  CONTRERAS BAYONA  \r\n\t\t\t\t\t | Demandado/indiciado/causante: DAIVER DANIEL CONTRERAS\r\n\t\t\t\t\tPLATA | Defensor Privado: WILLIAM ALBERTO FURNIELES\r\n\t\t\t\t\tROMERO ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -2096,7 +2096,7 @@
       "fechaUltimaActuacion": "2026-10-06T00:00:00",
       "despacho": "JUZGADO 039 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: FUNDACION CODERISE- | Demandado: MARIANA PLAZAS ROMERO | Demandado: LUZ MARITZA ROMERO CEPEDA ",
+      "sujetosProcesales": "Demandante: FUNDACION CODERISE- | Demandado: LUZ MARITZA ROMERO CEPEDA | Demandado: MARIANA PLAZAS ROMERO ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -4016,7 +4016,7 @@
       "fechaUltimaActuacion": "2025-07-23T00:00:00",
       "despacho": "JUZGADO 003 PROMISCUO MUNICIPAL DE SABANALARGA ",
       "departamento": "ATLÁNTICO",
-      "sujetosProcesales": "Demandante/accionante: CODERISE INTERNATIONAL | Demandado/indiciado/causante: ELIZABETH CRISTINA CUENTAS CANTILLO  \r\n\t\t\t\t\t | Demandado/indiciado/causante: ana idamis cantillo\r\n\t\t\t\t\tbrochero ",
+      "sujetosProcesales": "Demandante/accionante: CODERISE INTERNATIONAL | Demandado/indiciado/causante: ana idamis cantillo\r\n\t\t\t\t\tbrochero | Demandado/indiciado/causante: ELIZABETH CRISTINA CUENTAS CANTILLO  \r\n\t\t\t\t\t ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -4109,10 +4109,10 @@
       "idConexion": 320,
       "llaveProceso": "05360400300320240062600",
       "fechaProceso": null,
-      "fechaUltimaActuacion": "2026-10-08T00:00:00",
+      "fechaUltimaActuacion": "2026-10-15T00:00:00",
       "despacho": "DESPACHO 004 - JUZGADO MUNICIPAL - CIVIL - ITAGÜÍ *",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: CODERISE INTERNATIONAL | Demandado/indiciado/causante: HERNAN DARIO ECHEVERRY RAMIREZ | Demandado/indiciado/causante: DORA CONSUELO VELASQUEZ VELEZ ",
+      "sujetosProcesales": "Demandante/accionante: CODERISE INTERNATIONAL | Demandado/indiciado/causante: DORA CONSUELO VELASQUEZ VELEZ | Demandado/indiciado/causante: HERNAN DARIO ECHEVERRY RAMIREZ ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -4412,7 +4412,7 @@
       "fechaUltimaActuacion": "2026-10-08T00:00:00",
       "despacho": "JUZGADO 002 CIVIL MUNICIPAL DE BELLO ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: FUNDACIÓN CODERISE EN LIQUIDACION | Demandado/indiciado/causante: EDITH  MENDEZ\r\n\t\t\t\t\tANACONA | Demandado/indiciado/causante: YEFERSON JULIAN LOSADA\r\n\t\t\t\t\tMENDEZ | Defensor Privado: andrea tatiana uribe\r\n\t\t\t\t\tmariño ",
+      "sujetosProcesales": "Demandante/accionante: FUNDACIÓN CODERISE EN LIQUIDACION | Demandado/indiciado/causante: YEFERSON JULIAN LOSADA\r\n\t\t\t\t\tMENDEZ | Demandado/indiciado/causante: EDITH  MENDEZ\r\n\t\t\t\t\tANACONA | Defensor Privado: andrea tatiana uribe\r\n\t\t\t\t\tmariño ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -4544,7 +4544,7 @@
       "fechaUltimaActuacion": "2025-12-09T00:00:00",
       "despacho": "JUZGADO 025 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: ANGIE VANESSA VASQUEZ ECHAVARRIA | Demandado/indiciado/causante: JUAN ALBERTO LONDOÑO HERNANDEZ ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: JUAN ALBERTO LONDOÑO HERNANDEZ | Demandado/indiciado/causante: ANGIE VANESSA VASQUEZ ECHAVARRIA ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -4652,7 +4652,7 @@
       "fechaUltimaActuacion": "2024-05-30T00:00:00",
       "despacho": "JUZGADO 027 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: ADRIANA MARIA HERRERA FORONDA | Demandado/indiciado/causante: JUAN FERNANDO CALLE HERRERA ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: JUAN FERNANDO CALLE HERRERA | Demandado/indiciado/causante: ADRIANA MARIA HERRERA FORONDA ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -4688,7 +4688,7 @@
       "fechaUltimaActuacion": "2024-06-20T00:00:00",
       "despacho": "JUZGADO 028 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: MARIBEL SERNA ARBELAEZ | Demandado/indiciado/causante: MARIA ZORAIDA SERNA\r\n\t\t\t\t\tARBELAEZ ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: MARIA ZORAIDA SERNA\r\n\t\t\t\t\tARBELAEZ | Demandado/indiciado/causante: MARIBEL SERNA ARBELAEZ ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -4796,7 +4796,7 @@
       "fechaUltimaActuacion": "2024-07-18T00:00:00",
       "despacho": "JUZGADO 004 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: LAURA CRISTINA GIL POSADA | Demandado/indiciado/causante: Jose ignacio gil\r\n\t\t\t\t\talzate ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: Jose ignacio gil\r\n\t\t\t\t\talzate | Demandado/indiciado/causante: LAURA CRISTINA GIL POSADA ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -4880,7 +4880,7 @@
       "fechaUltimaActuacion": "2023-07-28T00:00:00",
       "despacho": "JUZGADO 021 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: JONATHAN ANDRES CARDENAS PABON | Demandado/indiciado/causante: ELENA PABON ONTIVEROS ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: ELENA PABON ONTIVEROS | Demandado/indiciado/causante: JONATHAN ANDRES CARDENAS PABON ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -4928,7 +4928,7 @@
       "fechaUltimaActuacion": "2023-01-26T00:00:00",
       "despacho": "JUZGADO 022 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: BLANCA ROSARIO TORRES ROJAS | Demandado/indiciado/causante: SAMUEL ADOLFO ROJAS COLEY ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: SAMUEL ADOLFO ROJAS COLEY | Demandado/indiciado/causante: BLANCA ROSARIO TORRES ROJAS ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -4952,7 +4952,7 @@
       "fechaUltimaActuacion": "2026-05-27T00:00:00",
       "despacho": "DESPACHO 036 - JUZGADO MUNICIPAL - CIVIL - MEDELLÍN *",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: CODERISE INTERNATIONAL | Demandado/indiciado/causante: SEBASTIAN MOLINA HENAO | Demandado/indiciado/causante: SHARA GARCIA BETANCUR ",
+      "sujetosProcesales": "Demandante/accionante: CODERISE INTERNATIONAL | Demandado/indiciado/causante: SHARA GARCIA BETANCUR | Demandado/indiciado/causante: SEBASTIAN MOLINA HENAO ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -4988,7 +4988,7 @@
       "fechaUltimaActuacion": "2026-09-03T00:00:00",
       "despacho": "JUZGADO 023 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: YERLISON MATURANA SERNA | Demandado/indiciado/causante: MARTHA LILIANA OSPINA MURILLO ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: MARTHA LILIANA OSPINA MURILLO | Demandado/indiciado/causante: YERLISON MATURANA SERNA ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -5012,7 +5012,7 @@
       "fechaUltimaActuacion": "2026-08-26T00:00:00",
       "despacho": "JUZGADO 004 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: HENRY ALEXIS ZAPATA CHAVARRIA | Demandado/indiciado/causante: EDDY SANTIAGO ZAPATA HIGUITA ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: EDDY SANTIAGO ZAPATA HIGUITA | Demandado/indiciado/causante: HENRY ALEXIS ZAPATA CHAVARRIA ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -5096,7 +5096,7 @@
       "fechaUltimaActuacion": "2024-06-06T00:00:00",
       "despacho": "JUZGADO 014 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: SANTIAGO VELEZ GARCIA | Demandado/indiciado/causante: LELIA GARCIA LOPEZ ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: LELIA GARCIA LOPEZ | Demandado/indiciado/causante: SANTIAGO VELEZ GARCIA ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -5108,7 +5108,7 @@
       "fechaUltimaActuacion": "2023-08-18T00:00:00",
       "despacho": "JUZGADO 033 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: LUIS GUILLERMO GONZALEZ | Demandado/indiciado/causante: MARCOS PIMIENTA BETANCURT ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: MARCOS PIMIENTA BETANCURT | Demandado/indiciado/causante: LUIS GUILLERMO GONZALEZ ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -5120,7 +5120,7 @@
       "fechaUltimaActuacion": "2026-08-31T00:00:00",
       "despacho": "JUZGADO 015 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: EMANUEL MONSALVE PARRA | Demandado/indiciado/causante: LUZ ANGELA PARRA MONTOYA ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: LUZ ANGELA PARRA MONTOYA | Demandado/indiciado/causante: EMANUEL MONSALVE PARRA ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -5168,7 +5168,7 @@
       "fechaUltimaActuacion": "2024-05-29T00:00:00",
       "despacho": "JUZGADO 016 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: JOSHUA HERNANDEZ MARTINEZ | Demandado/indiciado/causante: TATIANA HERNANDEZ MARTINEZ ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: TATIANA HERNANDEZ MARTINEZ | Demandado/indiciado/causante: JOSHUA HERNANDEZ MARTINEZ ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -5264,7 +5264,7 @@
       "fechaUltimaActuacion": "2024-03-01T00:00:00",
       "despacho": "JUZGADO 016 CIVIL DEL CIRCUITO DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: DAVID AGUDELO THERAN | Demandado/indiciado/causante: NANCY THERAN CONTRERAS ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: NANCY THERAN CONTRERAS | Demandado/indiciado/causante: DAVID AGUDELO THERAN ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -5288,7 +5288,7 @@
       "fechaUltimaActuacion": "2023-10-20T00:00:00",
       "despacho": "JUZGADO 006 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: DAVID AGUDELO THERAN | Demandado/indiciado/causante: NANCY THERAN CONTRERAS ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: NANCY THERAN CONTRERAS | Demandado/indiciado/causante: DAVID AGUDELO THERAN ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -5324,7 +5324,7 @@
       "fechaUltimaActuacion": "2024-05-29T00:00:00",
       "despacho": "JUZGADO 007 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: JUAN JOSE ARANGO DIAZ | Demandado/indiciado/causante: YENNIFER MARCELA TOBON\r\n\t\t\t\t\tYATE ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: YENNIFER MARCELA TOBON\r\n\t\t\t\t\tYATE | Demandado/indiciado/causante: JUAN JOSE ARANGO DIAZ ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -5372,7 +5372,7 @@
       "fechaUltimaActuacion": "2023-09-29T00:00:00",
       "despacho": "JUZGADO 009 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: CLAUDIA PATRICIA RESTREPO | Demandado/indiciado/causante: JUAN ESTEBAN ARANGO RESTREPO ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: JUAN ESTEBAN ARANGO RESTREPO | Demandado/indiciado/causante: CLAUDIA PATRICIA RESTREPO ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -5396,7 +5396,7 @@
       "fechaUltimaActuacion": "2026-03-16T00:00:00",
       "despacho": "JUZGADO 010 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: DANIEL CASTAÑO GOMEZ | Demandado/indiciado/causante: ERIKA MARIA GOMEZ RIVILLAS ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: ERIKA MARIA GOMEZ RIVILLAS | Demandado/indiciado/causante: DANIEL CASTAÑO GOMEZ ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -5420,7 +5420,7 @@
       "fechaUltimaActuacion": "2024-02-07T00:00:00",
       "despacho": "JUZGADO 009 CIVIL DEL CIRCUITO DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: EDWIN WILFRED ESPINAL GUALDRON | Demandado/indiciado/causante: LUZ HELENA CORTES GOMEZ ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: LUZ HELENA CORTES GOMEZ | Demandado/indiciado/causante: EDWIN WILFRED ESPINAL GUALDRON ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -5612,7 +5612,7 @@
       "fechaUltimaActuacion": "2026-05-11T00:00:00",
       "despacho": "JUZGADO 003 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: JUAN DAVID RESTREPO ZAMBRANO | Demandado/indiciado/causante: MARIA CECILIA ZAMBRANO VESGA ",
+      "sujetosProcesales": "Demandante/accionante: fundacion coderise en liquidacion | Demandado/indiciado/causante: MARIA CECILIA ZAMBRANO VESGA | Demandado/indiciado/causante: JUAN DAVID RESTREPO ZAMBRANO ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -5672,7 +5672,7 @@
       "fechaUltimaActuacion": "2024-05-29T00:00:00",
       "despacho": "JUZGADO 005 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: FUNDACIÓN CODERISE EN LIQUIDACION | Demandado/indiciado/causante: MARLON SANTIAGO ARBOLEDA LONDOÑO | Demandado/indiciado/causante: MARTIN ARBOLEDA MONTOYA ",
+      "sujetosProcesales": "Demandante/accionante: FUNDACIÓN CODERISE EN LIQUIDACION | Demandado/indiciado/causante: MARTIN ARBOLEDA MONTOYA | Demandado/indiciado/causante: MARLON SANTIAGO ARBOLEDA LONDOÑO ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -5948,7 +5948,7 @@
       "fechaUltimaActuacion": "2026-04-15T00:00:00",
       "despacho": "JUZGADO 002 CIVIL MUNICIPAL DE SANTANDER DE QUILICHAO ",
       "departamento": "CAUCA",
-      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: ELVIA  DUARTE\r\n\t\t\t\t\tFACUNDO | Demandado/indiciado/causante: DAIRO FACUNDO DUARTE\r\n\t\t\t\t\t | Defensor Privado: DIEGO ANDRES DIAZ\r\n\t\t\t\t\tVEGA ",
+      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: DAIRO FACUNDO DUARTE\r\n\t\t\t\t\t | Demandado/indiciado/causante: ELVIA  DUARTE\r\n\t\t\t\t\tFACUNDO | Defensor Privado: DIEGO ANDRES DIAZ\r\n\t\t\t\t\tVEGA ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -5996,7 +5996,7 @@
       "fechaUltimaActuacion": "2026-10-01T00:00:00",
       "despacho": "JUZGADO 001 CIVIL MUNICIPAL DE MONTERÍA ",
       "departamento": "CÓRDOBA",
-      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: DIANA PATRICIA CHARRY\r\n\t\t\t\t\tCORONADO | Demandado/indiciado/causante: MARCO ANTONIO ORDOÑEZ\r\n\t\t\t\t\tPERIÑAN | Defensor Privado: DIEGO ANDRES DIAZ\r\n\t\t\t\t\tVEGA ",
+      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: MARCO ANTONIO ORDOÑEZ\r\n\t\t\t\t\tPERIÑAN | Demandado/indiciado/causante: DIANA PATRICIA CHARRY\r\n\t\t\t\t\tCORONADO | Defensor Privado: DIEGO ANDRES DIAZ\r\n\t\t\t\t\tVEGA ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -6620,7 +6620,7 @@
       "fechaUltimaActuacion": "2026-05-19T00:00:00",
       "despacho": "JUZGADO 003 CIVIL MUNICIPAL DE BELLO ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: juan camilo palacios\r\n\t\t\t\t\tlagarejo | Demandado/indiciado/causante: rosmira  lagarenjo\r\n\t\t\t\t\trenteria | Defensor Privado: DIEGO ANDRES DIAZ\r\n\t\t\t\t\tVEGA ",
+      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: rosmira  lagarenjo\r\n\t\t\t\t\trenteria | Demandado/indiciado/causante: juan camilo palacios\r\n\t\t\t\t\tlagarejo | Defensor Privado: DIEGO ANDRES DIAZ\r\n\t\t\t\t\tVEGA ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -6860,7 +6860,7 @@
       "fechaUltimaActuacion": "2024-10-21T00:00:00",
       "despacho": "JUZGADO 029 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: MICHAEL ANDRES GALINDEZ AGUIRRE | Demandado/indiciado/causante: LEIDI DIANA - AGUIRRE ANGEL ",
+      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: LEIDI DIANA - AGUIRRE ANGEL | Demandado/indiciado/causante: MICHAEL ANDRES GALINDEZ AGUIRRE ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -6896,7 +6896,7 @@
       "fechaUltimaActuacion": "2026-09-08T00:00:00",
       "despacho": "JUZGADO 029 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: LINA MARCELA VELEZ OCAMPO | Demandado/indiciado/causante: MIGUEL ANGEL VELEZ OCAMPO ",
+      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: MIGUEL ANGEL VELEZ OCAMPO | Demandado/indiciado/causante: LINA MARCELA VELEZ OCAMPO ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -6968,7 +6968,7 @@
       "fechaUltimaActuacion": "2026-03-20T00:00:00",
       "despacho": "DESPACHO 035 - JUZGADO MUNICIPAL - CIVIL - MEDELLÍN *",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: ANDRES FELIPE OCAÑA | Demandado/indiciado/causante: CIRO GERMAN OCANA ",
+      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: CIRO GERMAN OCANA | Demandado/indiciado/causante: ANDRES FELIPE OCAÑA ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -7172,7 +7172,7 @@
       "fechaUltimaActuacion": "2026-07-23T00:00:00",
       "despacho": "JUZGADO 021 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: ANDREA MENDEZ MESIAS | Demandado/indiciado/causante: PABLO CESAR GUERRA MUÑETON ",
+      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: PABLO CESAR GUERRA MUÑETON | Demandado/indiciado/causante: ANDREA MENDEZ MESIAS ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -7220,7 +7220,7 @@
       "fechaUltimaActuacion": "2025-04-21T00:00:00",
       "despacho": "JUZGADO 026 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: LUIS FERNANDO CARABALI ARRECHEA | Demandado/indiciado/causante: JUAN JOSE CARABALI HURTADO ",
+      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: JUAN JOSE CARABALI HURTADO | Demandado/indiciado/causante: LUIS FERNANDO CARABALI ARRECHEA ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -7256,7 +7256,7 @@
       "fechaUltimaActuacion": "2024-10-10T00:00:00",
       "despacho": "JUZGADO 028 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: MARIA GRETEL ALVAREZ GIRALDO | Demandado/indiciado/causante: VALERIA ALVAREZ GIRALDO ",
+      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: VALERIA ALVAREZ GIRALDO | Demandado/indiciado/causante: MARIA GRETEL ALVAREZ GIRALDO ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -7280,7 +7280,7 @@
       "fechaUltimaActuacion": "2025-04-25T00:00:00",
       "despacho": "JUZGADO 028 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: TOMAS GOMEZ VELEZ | Demandado/indiciado/causante: JULIO GOMEZ GIRALDO ",
+      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: JULIO GOMEZ GIRALDO | Demandado/indiciado/causante: TOMAS GOMEZ VELEZ ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -7448,7 +7448,7 @@
       "fechaUltimaActuacion": "2026-05-06T00:00:00",
       "despacho": "JUZGADO 010 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: AIDA CRISTINA BETANCUR URIBE | Demandado/indiciado/causante: SANTIAGO ESPEJO BETANCUR ",
+      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: SANTIAGO ESPEJO BETANCUR | Demandado/indiciado/causante: AIDA CRISTINA BETANCUR URIBE ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -7460,7 +7460,7 @@
       "fechaUltimaActuacion": "2026-05-07T00:00:00",
       "despacho": "JUZGADO 010 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: RAUL ALBEIRO QUINTERO\r\n\t\t\t\t\tMISAS | Demandado/indiciado/causante: LUISA MARIA SALAZAR TOBON ",
+      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: LUISA MARIA SALAZAR TOBON | Demandado/indiciado/causante: RAUL ALBEIRO QUINTERO\r\n\t\t\t\t\tMISAS ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -7496,7 +7496,7 @@
       "fechaUltimaActuacion": "2026-08-18T00:00:00",
       "despacho": "JUZGADO 014 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: SANTIAGO HINESTROZA NARANJO | Demandado/indiciado/causante: MYRIAM DEL SOCORRO NARANJO DE ALVAREZ ",
+      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: MYRIAM DEL SOCORRO NARANJO DE ALVAREZ | Demandado/indiciado/causante: SANTIAGO HINESTROZA NARANJO ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -7520,7 +7520,7 @@
       "fechaUltimaActuacion": "2025-01-23T00:00:00",
       "despacho": "JUZGADO 015 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: SHIRLEY JOHANNA JARAMILLO | Demandado/indiciado/causante: LUIS ALEJANDRO PATIÑO\r\n\t\t\t\t\tARBOLEDA ",
+      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: LUIS ALEJANDRO PATIÑO\r\n\t\t\t\t\tARBOLEDA | Demandado/indiciado/causante: SHIRLEY JOHANNA JARAMILLO ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -7580,7 +7580,7 @@
       "fechaUltimaActuacion": "2025-10-22T00:00:00",
       "despacho": "JUZGADO 002 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: NASSER ABRAHAM ABUCHAIBE GONZALEZ | Demandado/indiciado/causante: KATERINE LOPEZ DIAS ",
+      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: KATERINE LOPEZ DIAS | Demandado/indiciado/causante: NASSER ABRAHAM ABUCHAIBE GONZALEZ ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -7592,7 +7592,7 @@
       "fechaUltimaActuacion": "2025-11-26T00:00:00",
       "despacho": "JUZGADO 002 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: NIDIA MUÑOZ VALERO | Demandado/indiciado/causante: EDWARD OSORNO MUÑOZ ",
+      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: EDWARD OSORNO MUÑOZ | Demandado/indiciado/causante: NIDIA MUÑOZ VALERO ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -7652,7 +7652,7 @@
       "fechaUltimaActuacion": "2026-04-16T00:00:00",
       "despacho": "JUZGADO 004 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: DANIELA GIRALDO JIMENEZ | Demandado/indiciado/causante: JAROLD STIVEN HAKINS HERNANDEZ ",
+      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: JAROLD STIVEN HAKINS HERNANDEZ | Demandado/indiciado/causante: DANIELA GIRALDO JIMENEZ ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -7676,7 +7676,7 @@
       "fechaUltimaActuacion": "2025-07-11T00:00:00",
       "despacho": "JUZGADO 006 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: ADRIANA LETICIA CHINOME CELY | Demandado/indiciado/causante: DANIEL ALFONSO ANGARITA CHINOME ",
+      "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS | Demandado/indiciado/causante: DANIEL ALFONSO ANGARITA CHINOME | Demandado/indiciado/causante: ADRIANA LETICIA CHINOME CELY ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -8588,7 +8588,7 @@
       "fechaUltimaActuacion": "2026-07-14T00:00:00",
       "despacho": "DESPACHO 036 - JUZGADO MUNICIPAL - CIVIL - MEDELLÍN *",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: FIDEICOMISO ACADEMIA DE SOFTWARE DE CALI | Demandado/indiciado/causante: LILIANA PATRICIA CICEROS GALLON | Demandado/indiciado/causante: ALEJANDRO RAMIREZ CICEROS ",
+      "sujetosProcesales": "Demandante/accionante: FIDEICOMISO ACADEMIA DE SOFTWARE DE CALI | Demandado/indiciado/causante: ALEJANDRO RAMIREZ CICEROS | Demandado/indiciado/causante: LILIANA PATRICIA CICEROS GALLON ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -8612,7 +8612,7 @@
       "fechaUltimaActuacion": "2025-02-25T00:00:00",
       "despacho": "JUZGADO 023 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: FIDEICOMISO ACADEMIA DE SOFTWARE DE ANTIOQUIA | Demandado/indiciado/causante: LUIGGY ANDRES ARRIETA MORENO | Demandado/indiciado/causante: MARCIAL ORCAR ARRIETA PATERNINA ",
+      "sujetosProcesales": "Demandante/accionante: FIDEICOMISO ACADEMIA DE SOFTWARE DE ANTIOQUIA | Demandado/indiciado/causante: MARCIAL ORCAR ARRIETA PATERNINA | Demandado/indiciado/causante: LUIGGY ANDRES ARRIETA MORENO ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -8672,7 +8672,7 @@
       "fechaUltimaActuacion": "2025-05-13T00:00:00",
       "despacho": "JUZGADO 025 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
-      "sujetosProcesales": "Demandante/accionante: FIDEICOMISO ACADEMIA DE SOFTWARE DE ANTIOQUIA | Demandado/indiciado/causante: ANDRES HURTADO JARAMILLO | Demandado/indiciado/causante: ARIA EUGENIA JARAMILLO ZABALA ",
+      "sujetosProcesales": "Demandante/accionante: FIDEICOMISO ACADEMIA DE SOFTWARE DE ANTIOQUIA | Demandado/indiciado/causante: ARIA EUGENIA JARAMILLO ZABALA | Demandado/indiciado/causante: ANDRES HURTADO JARAMILLO ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -10073,7 +10073,7 @@
       "idConexion": 320,
       "llaveProceso": "05001400301020260096400",
       "fechaProceso": "2026-07-09T00:00:00",
-      "fechaUltimaActuacion": "2026-10-01T00:00:00",
+      "fechaUltimaActuacion": "2026-10-14T00:00:00",
       "despacho": "JUZGADO 010 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
       "sujetosProcesales": "Demandante/accionante: LUMNI COLOMBIA SAS  \r\n\t\t\t\t\t | Demandado/indiciado/causante: ANDRES DAVID JARAMILLO\r\n\t\t\t\t\tGUTIERREZ | Defensor Privado: DIEGO ANDRES DIAZ\r\n\t\t\t\t\tVEGA ",
@@ -10157,7 +10157,7 @@
       "idConexion": 320,
       "llaveProceso": "05001400301520260123300",
       "fechaProceso": "2026-08-24T00:00:00",
-      "fechaUltimaActuacion": "2026-08-24T00:00:00",
+      "fechaUltimaActuacion": "2026-10-15T00:00:00",
       "despacho": "JUZGADO 015 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
       "sujetosProcesales": "Demandante/accionante: ASTORGA MANAGEMENT SAS  \r\n\t\t\t\t\t | Demandado/indiciado/causante: NIDIA ARGELI MUÑOZ VALERO  \r\n\t\t\t\t\t | Demandado/indiciado/causante: EDWAR OSORNO MUÑOZ  \r\n\t\t\t\t\t | Defensor Privado: DANIEL FELIPE MONTIEL\r\n\t\t\t\t\tVERA ",
@@ -10349,7 +10349,7 @@
       "idConexion": 135,
       "llaveProceso": "11001400500220261036600",
       "fechaProceso": "2026-10-01T00:00:00",
-      "fechaUltimaActuacion": "2026-10-05T00:00:00",
+      "fechaUltimaActuacion": "2026-10-14T00:00:00",
       "despacho": "DESPACHO 002 - JUZGADO MUNICIPAL - LABORAL - BOGOTÁ *",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: PAULO ANDRES MORILLO MUÑOZ | Demandado: FUNDACION CODERISE ",
@@ -10413,6 +10413,18 @@
       "despacho": "JUZGADO 034 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: LUMNI COLOMBIA S.A.S. | Demandado: GLADYS HERNANDEZ LANDINO | Demandado: SMIT YULIETH PACHON HERNANDEZ ",
+      "esPrivado": false,
+      "cantFilas": -1
+    },
+    {
+      "idProceso": 176884682,
+      "idConexion": 180,
+      "llaveProceso": "11001400301520240096402",
+      "fechaProceso": "2026-10-14T00:00:00",
+      "fechaUltimaActuacion": "2026-10-14T00:00:00",
+      "despacho": "JUZGADO 026 CIVIL DEL CIRCUITO DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: LUMNI COLOMBIA SAS | Demandado: LUZ ADRIANA GAVIRIA | Demandado: JUAN DAVID AMAYA GAVIRIA ",
       "esPrivado": false,
       "cantFilas": -1
     }
@@ -68699,6 +68711,48 @@
     ],
     "154493951": [
       {
+        "idRegActuacion": 3988484031,
+        "llaveProceso": "76001400303320220061900",
+        "consActuacion": 90,
+        "fechaActuacion": "2026-10-14T00:00:00",
+        "actuacion": "Fijacion estado",
+        "anotacion": "Actuación registrada el 14/10/2026 a las 13:51:15.",
+        "fechaInicial": "2026-10-15T00:00:00",
+        "fechaFinal": "2026-10-15T00:00:00",
+        "fechaRegistro": "2026-10-14T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 90
+      },
+      {
+        "idRegActuacion": 3988484021,
+        "llaveProceso": "76001400303320220061900",
+        "consActuacion": 89,
+        "fechaActuacion": "2026-10-14T00:00:00",
+        "actuacion": "Auto Ordena Oficiar",
+        "anotacion": "9690 - AUTO 14383 REGISTRADO - (EXPEDIENTE ELECTRONICO)",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2026-10-14T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 90
+      },
+      {
+        "idRegActuacion": 3988162851,
+        "llaveProceso": "76001400303320220061900",
+        "consActuacion": 88,
+        "fechaActuacion": "2026-10-14T00:00:00",
+        "actuacion": "CyN Registrar Providencia",
+        "anotacion": "9694",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2026-10-14T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 90
+      },
+      {
         "idRegActuacion": 3982605261,
         "llaveProceso": "76001400303320220061900",
         "consActuacion": 87,
@@ -68710,7 +68764,7 @@
         "fechaRegistro": "2026-10-05T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 87
+        "cant": 90
       },
       {
         "idRegActuacion": 3982577061,
@@ -68724,7 +68778,7 @@
         "fechaRegistro": "2026-10-05T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 87
+        "cant": 90
       },
       {
         "idRegActuacion": 3916491801,
@@ -68738,7 +68792,7 @@
         "fechaRegistro": "2026-06-11T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 87
+        "cant": 90
       },
       {
         "idRegActuacion": 3912249971,
@@ -68752,7 +68806,7 @@
         "fechaRegistro": "2026-06-03T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 87
+        "cant": 90
       },
       {
         "idRegActuacion": 3912249961,
@@ -68766,7 +68820,7 @@
         "fechaRegistro": "2026-06-03T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 87
+        "cant": 90
       },
       {
         "idRegActuacion": 3911999421,
@@ -68780,7 +68834,7 @@
         "fechaRegistro": "2026-06-02T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 87
+        "cant": 90
       },
       {
         "idRegActuacion": 3221899231,
@@ -68794,7 +68848,7 @@
         "fechaRegistro": "2026-02-24T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 87
+        "cant": 90
       },
       {
         "idRegActuacion": 3221899221,
@@ -68808,7 +68862,7 @@
         "fechaRegistro": "2026-02-24T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 87
+        "cant": 90
       },
       {
         "idRegActuacion": 3218101481,
@@ -68822,7 +68876,7 @@
         "fechaRegistro": "2026-02-24T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 87
+        "cant": 90
       },
       {
         "idRegActuacion": 3218101471,
@@ -68836,7 +68890,7 @@
         "fechaRegistro": "2026-02-24T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 87
+        "cant": 90
       },
       {
         "idRegActuacion": 3203591041,
@@ -68850,7 +68904,7 @@
         "fechaRegistro": "2026-02-24T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 87
+        "cant": 90
       },
       {
         "idRegActuacion": 3064364371,
@@ -68864,7 +68918,7 @@
         "fechaRegistro": "2026-02-16T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 87
+        "cant": 90
       },
       {
         "idRegActuacion": 3064364361,
@@ -68878,7 +68932,7 @@
         "fechaRegistro": "2026-02-16T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 87
+        "cant": 90
       },
       {
         "idRegActuacion": 2966988151,
@@ -68892,7 +68946,7 @@
         "fechaRegistro": "2026-02-11T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 87
+        "cant": 90
       },
       {
         "idRegActuacion": 2810712821,
@@ -68906,7 +68960,7 @@
         "fechaRegistro": "2026-02-03T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 87
+        "cant": 90
       },
       {
         "idRegActuacion": 2810712811,
@@ -68920,7 +68974,7 @@
         "fechaRegistro": "2026-02-03T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 87
+        "cant": 90
       },
       {
         "idRegActuacion": 2436374701,
@@ -68934,7 +68988,7 @@
         "fechaRegistro": "2025-10-30T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 87
+        "cant": 90
       },
       {
         "idRegActuacion": 2393827681,
@@ -68948,7 +69002,7 @@
         "fechaRegistro": "2025-10-22T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 87
+        "cant": 90
       },
       {
         "idRegActuacion": 2393827671,
@@ -68962,7 +69016,7 @@
         "fechaRegistro": "2025-10-22T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 87
+        "cant": 90
       },
       {
         "idRegActuacion": 2390071791,
@@ -68976,7 +69030,7 @@
         "fechaRegistro": "2025-10-20T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 87
+        "cant": 90
       },
       {
         "idRegActuacion": 2377652581,
@@ -68990,7 +69044,7 @@
         "fechaRegistro": "2025-10-14T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 87
+        "cant": 90
       },
       {
         "idRegActuacion": 2370384181,
@@ -69004,7 +69058,7 @@
         "fechaRegistro": "2025-10-09T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 87
+        "cant": 90
       },
       {
         "idRegActuacion": 2359810411,
@@ -69018,7 +69072,7 @@
         "fechaRegistro": "2025-10-01T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 87
+        "cant": 90
       },
       {
         "idRegActuacion": 2253773801,
@@ -69032,7 +69086,7 @@
         "fechaRegistro": "2025-09-19T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 87
+        "cant": 90
       },
       {
         "idRegActuacion": 2249644221,
@@ -69046,7 +69100,7 @@
         "fechaRegistro": "2025-09-17T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 87
+        "cant": 90
       },
       {
         "idRegActuacion": 2095631191,
@@ -69060,7 +69114,7 @@
         "fechaRegistro": "2025-09-11T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 87
+        "cant": 90
       },
       {
         "idRegActuacion": 1883013661,
@@ -69074,7 +69128,7 @@
         "fechaRegistro": "2025-09-03T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 87
+        "cant": 90
       },
       {
         "idRegActuacion": 1883013651,
@@ -69088,7 +69142,7 @@
         "fechaRegistro": "2025-09-03T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 87
+        "cant": 90
       },
       {
         "idRegActuacion": 1860185391,
@@ -69102,7 +69156,7 @@
         "fechaRegistro": "2025-09-01T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 87
+        "cant": 90
       },
       {
         "idRegActuacion": 1763782771,
@@ -69116,7 +69170,7 @@
         "fechaRegistro": "2025-07-28T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 87
+        "cant": 90
       },
       {
         "idRegActuacion": 1763782761,
@@ -69130,7 +69184,7 @@
         "fechaRegistro": "2025-07-28T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 87
+        "cant": 90
       },
       {
         "idRegActuacion": 1424861481,
@@ -69144,7 +69198,7 @@
         "fechaRegistro": "2024-09-05T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 87
+        "cant": 90
       },
       {
         "idRegActuacion": 1421186291,
@@ -69158,7 +69212,7 @@
         "fechaRegistro": "2024-08-28T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 87
+        "cant": 90
       },
       {
         "idRegActuacion": 1421186281,
@@ -69172,7 +69226,7 @@
         "fechaRegistro": "2024-08-28T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 87
+        "cant": 90
       },
       {
         "idRegActuacion": 1418831061,
@@ -69186,7 +69240,7 @@
         "fechaRegistro": "2024-08-23T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 87
+        "cant": 90
       },
       {
         "idRegActuacion": 1417582001,
@@ -69200,7 +69254,7 @@
         "fechaRegistro": "2024-08-21T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 87
+        "cant": 90
       },
       {
         "idRegActuacion": 1417581991,
@@ -69214,49 +69268,7 @@
         "fechaRegistro": "2024-08-21T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 87
-      },
-      {
-        "idRegActuacion": 1414148451,
-        "llaveProceso": "76001400303320220061900",
-        "consActuacion": 50,
-        "fechaActuacion": "2024-08-12T00:00:00",
-        "actuacion": "AGE Sin Pendientes Electrónico",
-        "anotacion": "9702 - Auto 4729 - Enviado. Expediente Electrónico \r\n",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2024-08-12T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 87
-      },
-      {
-        "idRegActuacion": 1406027651,
-        "llaveProceso": "76001400303320220061900",
-        "consActuacion": 49,
-        "fechaActuacion": "2024-07-23T00:00:00",
-        "actuacion": "ATP Firmar Oficio",
-        "anotacion": "9707 auto 4729 ejecutoriado - Oficiar - ExpedienteElectronico ",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2024-07-23T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 87
-      },
-      {
-        "idRegActuacion": 1401398171,
-        "llaveProceso": "76001400303320220061900",
-        "consActuacion": 48,
-        "fechaActuacion": "2024-07-15T00:00:00",
-        "actuacion": "Fijacion estado",
-        "anotacion": "Actuación registrada el 15/07/2024 a las 10:44:00.",
-        "fechaInicial": "2024-07-16T00:00:00",
-        "fechaFinal": "2024-07-16T00:00:00",
-        "fechaRegistro": "2024-07-15T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 87
+        "cant": 90
       }
     ],
     "154502700": [
@@ -92775,6 +92787,20 @@
     ],
     "175792353": [
       {
+        "idRegActuacion": 2452106883,
+        "llaveProceso": "11001400500220261036600",
+        "consActuacion": 3,
+        "fechaActuacion": "2026-10-14T00:00:00",
+        "actuacion": "Sentencia tutela primera Instancia",
+        "anotacion": null,
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2026-10-14T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 3
+      },
+      {
         "idRegActuacion": 2450443913,
         "llaveProceso": "11001400500220261036600",
         "consActuacion": 2,
@@ -92786,7 +92812,7 @@
         "fechaRegistro": "2026-10-05T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 2
+        "cant": 3
       },
       {
         "idRegActuacion": 2450022163,
@@ -92800,7 +92826,7 @@
         "fechaRegistro": "2026-10-01T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 2
+        "cant": 3
       }
     ],
     "175802123": [
@@ -94672,6 +94698,36 @@
         "fechaInicial": "2026-10-05T00:00:00",
         "fechaFinal": "2026-10-05T00:00:00",
         "fechaRegistro": "2026-10-05T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 2
+      }
+    ],
+    "176884682": [
+      {
+        "idRegActuacion": 1829787702,
+        "llaveProceso": "11001400301520240096402",
+        "consActuacion": 2,
+        "fechaActuacion": "2026-10-14T00:00:00",
+        "actuacion": "Al despacho",
+        "anotacion": null,
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2026-10-14T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 2
+      },
+      {
+        "idRegActuacion": 1829787692,
+        "llaveProceso": "11001400301520240096402",
+        "consActuacion": 1,
+        "fechaActuacion": "2026-10-14T00:00:00",
+        "actuacion": " Radicación de Proceso",
+        "anotacion": "Actuación de  Radicación de Proceso  realizada el 14/10/2026 a las 10:14:32",
+        "fechaInicial": "2026-10-14T00:00:00",
+        "fechaFinal": "2026-10-14T00:00:00",
+        "fechaRegistro": "2026-10-14T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
         "cant": 2
@@ -105542,6 +105598,34 @@
     ],
     "201078421": [
       {
+        "idRegActuacion": 3988450681,
+        "llaveProceso": "76001400300820240121700",
+        "consActuacion": 28,
+        "fechaActuacion": "2026-10-14T00:00:00",
+        "actuacion": "DES Expediente Electrónico",
+        "anotacion": "9660  261014005 MemorialNulidadYControlLegalidad 00820240121700  EE. FL4\r\n",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2026-10-14T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 28
+      },
+      {
+        "idRegActuacion": 3988450671,
+        "llaveProceso": "76001400300820240121700",
+        "consActuacion": 27,
+        "fechaActuacion": "2026-10-14T00:00:00",
+        "actuacion": "Recepción Memorial INTERRUMPE TRAMITE",
+        "anotacion": "9660 GD 261014005 MemorialNulidadYControlLegalidad 00820240121700  EE. FL4\r\n",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2026-10-14T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 28
+      },
+      {
         "idRegActuacion": 3919399821,
         "llaveProceso": "76001400300820240121700",
         "consActuacion": 26,
@@ -105553,7 +105637,7 @@
         "fechaRegistro": "2026-06-16T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 26
+        "cant": 28
       },
       {
         "idRegActuacion": 3342353941,
@@ -105567,7 +105651,7 @@
         "fechaRegistro": "2026-03-03T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 26
+        "cant": 28
       },
       {
         "idRegActuacion": 3180373081,
@@ -105581,7 +105665,7 @@
         "fechaRegistro": "2026-02-23T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 26
+        "cant": 28
       },
       {
         "idRegActuacion": 3180373071,
@@ -105595,7 +105679,7 @@
         "fechaRegistro": "2026-02-23T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 26
+        "cant": 28
       },
       {
         "idRegActuacion": 3120386781,
@@ -105609,7 +105693,7 @@
         "fechaRegistro": "2026-02-18T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 26
+        "cant": 28
       },
       {
         "idRegActuacion": 3083153811,
@@ -105623,7 +105707,7 @@
         "fechaRegistro": "2026-02-17T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 26
+        "cant": 28
       },
       {
         "idRegActuacion": 2832534571,
@@ -105637,7 +105721,7 @@
         "fechaRegistro": "2026-02-09T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 26
+        "cant": 28
       },
       {
         "idRegActuacion": 2832534561,
@@ -105651,7 +105735,7 @@
         "fechaRegistro": "2026-02-09T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 26
+        "cant": 28
       },
       {
         "idRegActuacion": 2832534551,
@@ -105665,7 +105749,7 @@
         "fechaRegistro": "2026-02-09T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 26
+        "cant": 28
       },
       {
         "idRegActuacion": 2811215881,
@@ -105679,7 +105763,7 @@
         "fechaRegistro": "2026-02-04T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 26
+        "cant": 28
       },
       {
         "idRegActuacion": 2809169441,
@@ -105693,7 +105777,7 @@
         "fechaRegistro": "2026-01-30T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 26
+        "cant": 28
       },
       {
         "idRegActuacion": 2809169431,
@@ -105707,7 +105791,7 @@
         "fechaRegistro": "2026-01-30T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 26
+        "cant": 28
       },
       {
         "idRegActuacion": 2516990421,
@@ -105721,7 +105805,7 @@
         "fechaRegistro": "2025-12-16T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 26
+        "cant": 28
       },
       {
         "idRegActuacion": 2495437591,
@@ -105735,7 +105819,7 @@
         "fechaRegistro": "2025-12-09T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 26
+        "cant": 28
       },
       {
         "idRegActuacion": 1743569001,
@@ -105749,7 +105833,7 @@
         "fechaRegistro": "2025-06-24T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 26
+        "cant": 28
       },
       {
         "idRegActuacion": 1740150861,
@@ -105763,7 +105847,7 @@
         "fechaRegistro": "2025-06-16T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 26
+        "cant": 28
       },
       {
         "idRegActuacion": 1740150851,
@@ -105777,7 +105861,7 @@
         "fechaRegistro": "2025-06-16T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 26
+        "cant": 28
       },
       {
         "idRegActuacion": 1737316011,
@@ -105791,7 +105875,7 @@
         "fechaRegistro": "2025-06-11T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 26
+        "cant": 28
       },
       {
         "idRegActuacion": 1736739531,
@@ -105805,7 +105889,7 @@
         "fechaRegistro": "2025-06-09T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 26
+        "cant": 28
       },
       {
         "idRegActuacion": 1736451411,
@@ -105819,7 +105903,7 @@
         "fechaRegistro": "2025-03-28T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 26
+        "cant": 28
       },
       {
         "idRegActuacion": 1736451401,
@@ -105833,7 +105917,7 @@
         "fechaRegistro": "2025-03-28T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 26
+        "cant": 28
       },
       {
         "idRegActuacion": 1736451391,
@@ -105847,7 +105931,7 @@
         "fechaRegistro": "2024-12-06T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 26
+        "cant": 28
       },
       {
         "idRegActuacion": 1736451381,
@@ -105861,7 +105945,7 @@
         "fechaRegistro": "2024-12-06T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 26
+        "cant": 28
       },
       {
         "idRegActuacion": 1736451371,
@@ -105875,7 +105959,7 @@
         "fechaRegistro": "2024-12-06T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 26
+        "cant": 28
       },
       {
         "idRegActuacion": 1736451361,
@@ -105889,7 +105973,7 @@
         "fechaRegistro": "2024-12-06T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 26
+        "cant": 28
       },
       {
         "idRegActuacion": 1736451351,
@@ -105903,7 +105987,7 @@
         "fechaRegistro": "2024-12-02T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 26
+        "cant": 28
       }
     ],
     "201823410": [
@@ -136713,6 +136797,34 @@
     ],
     "2626819511": [
       {
+        "idRegActuacion": 3988717041,
+        "llaveProceso": "05360400300320240062600",
+        "consActuacion": 126387474,
+        "fechaActuacion": "2026-10-15T00:00:00",
+        "actuacion": "Fijacion Estado",
+        "anotacion": "",
+        "fechaInicial": "2026-10-15T00:00:00",
+        "fechaFinal": "2026-10-15T00:00:00",
+        "fechaRegistro": "2026-10-14T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 74
+      },
+      {
+        "idRegActuacion": 3988717031,
+        "llaveProceso": "05360400300320240062600",
+        "consActuacion": 126387473,
+        "fechaActuacion": "2026-10-14T00:00:00",
+        "actuacion": "Auto Decreta Medidas Cautelares",
+        "anotacion": "",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2026-10-14T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": true,
+        "cant": 74
+      },
+      {
         "idRegActuacion": 3984694071,
         "llaveProceso": "05360400300320240062600",
         "consActuacion": 126161642,
@@ -136724,7 +136836,7 @@
         "fechaRegistro": "2026-10-08T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 72
+        "cant": 74
       },
       {
         "idRegActuacion": 3983380491,
@@ -136738,7 +136850,7 @@
         "fechaRegistro": "2026-10-06T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 72
+        "cant": 74
       },
       {
         "idRegActuacion": 3983380481,
@@ -136752,7 +136864,7 @@
         "fechaRegistro": "2026-10-06T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": true,
-        "cant": 72
+        "cant": 74
       },
       {
         "idRegActuacion": 3982857371,
@@ -136766,7 +136878,7 @@
         "fechaRegistro": "2026-10-06T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 72
+        "cant": 74
       },
       {
         "idRegActuacion": 3982592231,
@@ -136780,7 +136892,7 @@
         "fechaRegistro": "2026-10-05T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 72
+        "cant": 74
       },
       {
         "idRegActuacion": 3982592221,
@@ -136794,7 +136906,7 @@
         "fechaRegistro": "2026-10-05T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": true,
-        "cant": 72
+        "cant": 74
       },
       {
         "idRegActuacion": 3981443631,
@@ -136808,7 +136920,7 @@
         "fechaRegistro": "2026-10-05T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 72
+        "cant": 74
       },
       {
         "idRegActuacion": 3981007211,
@@ -136822,7 +136934,7 @@
         "fechaRegistro": "2026-10-02T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 72
+        "cant": 74
       },
       {
         "idRegActuacion": 3979438881,
@@ -136836,7 +136948,7 @@
         "fechaRegistro": "2026-09-30T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 72
+        "cant": 74
       },
       {
         "idRegActuacion": 3979438871,
@@ -136850,7 +136962,7 @@
         "fechaRegistro": "2026-09-30T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": true,
-        "cant": 72
+        "cant": 74
       },
       {
         "idRegActuacion": 3970169541,
@@ -136864,7 +136976,7 @@
         "fechaRegistro": "2026-09-15T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 72
+        "cant": 74
       },
       {
         "idRegActuacion": 3970169531,
@@ -136878,7 +136990,7 @@
         "fechaRegistro": "2026-09-15T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": true,
-        "cant": 72
+        "cant": 74
       },
       {
         "idRegActuacion": 3969227241,
@@ -136892,7 +137004,7 @@
         "fechaRegistro": "2026-09-14T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 72
+        "cant": 74
       },
       {
         "idRegActuacion": 3968262661,
@@ -136906,7 +137018,7 @@
         "fechaRegistro": "2026-09-11T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 72
+        "cant": 74
       },
       {
         "idRegActuacion": 3968262651,
@@ -136920,7 +137032,7 @@
         "fechaRegistro": "2026-09-11T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": true,
-        "cant": 72
+        "cant": 74
       },
       {
         "idRegActuacion": 3967724411,
@@ -136934,7 +137046,7 @@
         "fechaRegistro": "2026-09-10T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 72
+        "cant": 74
       },
       {
         "idRegActuacion": 3967719921,
@@ -136948,7 +137060,7 @@
         "fechaRegistro": "2026-09-10T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 72
+        "cant": 74
       },
       {
         "idRegActuacion": 3967717231,
@@ -136962,7 +137074,7 @@
         "fechaRegistro": "2026-09-10T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 72
+        "cant": 74
       },
       {
         "idRegActuacion": 3967232411,
@@ -136976,7 +137088,7 @@
         "fechaRegistro": "2026-09-10T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 72
+        "cant": 74
       },
       {
         "idRegActuacion": 3966813021,
@@ -136990,7 +137102,7 @@
         "fechaRegistro": "2026-09-09T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 72
+        "cant": 74
       },
       {
         "idRegActuacion": 3966813011,
@@ -137004,7 +137116,7 @@
         "fechaRegistro": "2026-09-09T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": true,
-        "cant": 72
+        "cant": 74
       },
       {
         "idRegActuacion": 3966229791,
@@ -137018,7 +137130,7 @@
         "fechaRegistro": "2026-09-08T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 72
+        "cant": 74
       },
       {
         "idRegActuacion": 3964654541,
@@ -137032,7 +137144,7 @@
         "fechaRegistro": "2026-09-04T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 72
+        "cant": 74
       },
       {
         "idRegActuacion": 3964654531,
@@ -137046,7 +137158,7 @@
         "fechaRegistro": "2026-09-04T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": true,
-        "cant": 72
+        "cant": 74
       },
       {
         "idRegActuacion": 3963426861,
@@ -137060,7 +137172,7 @@
         "fechaRegistro": "2026-09-03T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 72
+        "cant": 74
       },
       {
         "idRegActuacion": 3961320631,
@@ -137074,7 +137186,7 @@
         "fechaRegistro": "2026-08-31T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 72
+        "cant": 74
       },
       {
         "idRegActuacion": 3961320621,
@@ -137088,7 +137200,7 @@
         "fechaRegistro": "2026-08-31T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": true,
-        "cant": 72
+        "cant": 74
       },
       {
         "idRegActuacion": 3456531551,
@@ -137102,7 +137214,7 @@
         "fechaRegistro": "2026-04-10T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 72
+        "cant": 74
       },
       {
         "idRegActuacion": 3456531541,
@@ -137116,7 +137228,7 @@
         "fechaRegistro": "2026-04-10T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": true,
-        "cant": 72
+        "cant": 74
       },
       {
         "idRegActuacion": 2494759601,
@@ -137130,7 +137242,7 @@
         "fechaRegistro": "2025-12-09T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 72
+        "cant": 74
       },
       {
         "idRegActuacion": 2376688741,
@@ -137144,7 +137256,7 @@
         "fechaRegistro": "2025-05-02T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 72
+        "cant": 74
       },
       {
         "idRegActuacion": 2376688731,
@@ -137158,7 +137270,7 @@
         "fechaRegistro": "2025-04-29T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 72
+        "cant": 74
       },
       {
         "idRegActuacion": 2376688721,
@@ -137172,7 +137284,7 @@
         "fechaRegistro": "2025-04-29T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 72
+        "cant": 74
       },
       {
         "idRegActuacion": 2376688711,
@@ -137186,7 +137298,7 @@
         "fechaRegistro": "2025-03-14T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 72
+        "cant": 74
       },
       {
         "idRegActuacion": 2376688701,
@@ -137200,7 +137312,7 @@
         "fechaRegistro": "2025-03-14T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 72
+        "cant": 74
       },
       {
         "idRegActuacion": 2376688691,
@@ -137214,7 +137326,7 @@
         "fechaRegistro": "2025-02-04T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 72
+        "cant": 74
       },
       {
         "idRegActuacion": 2376688681,
@@ -137228,7 +137340,7 @@
         "fechaRegistro": "2025-01-27T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 72
+        "cant": 74
       },
       {
         "idRegActuacion": 2376688671,
@@ -137242,35 +137354,7 @@
         "fechaRegistro": "2025-01-23T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 72
-      },
-      {
-        "idRegActuacion": 2376688661,
-        "llaveProceso": "05360400300320240062600",
-        "consActuacion": 56807330,
-        "fechaActuacion": "2025-01-23T00:00:00",
-        "actuacion": "Auto aprobando liquidación",
-        "anotacion": " ",
-        "fechaInicial": "1900-01-01T00:00:00",
-        "fechaFinal": "1900-01-01T00:00:00",
-        "fechaRegistro": "2025-01-23T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 72
-      },
-      {
-        "idRegActuacion": 2376688651,
-        "llaveProceso": "05360400300320240062600",
-        "consActuacion": 56807329,
-        "fechaActuacion": "2025-01-23T00:00:00",
-        "actuacion": "Fijacion Estado",
-        "anotacion": "Actuación registrada el 23/01/2025 a las 14:45:35.",
-        "fechaInicial": "2025-01-24T00:00:00",
-        "fechaFinal": "2025-01-24T00:00:00",
-        "fechaRegistro": "2025-01-23T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 72
+        "cant": 74
       }
     ],
     "2626855031": [
@@ -185855,6 +185939,62 @@
     ],
     "3284576221": [
       {
+        "idRegActuacion": 3988792401,
+        "llaveProceso": "05001400301020260096400",
+        "consActuacion": 126394131,
+        "fechaActuacion": "2026-10-14T00:00:00",
+        "actuacion": "Agregar Memorial",
+        "anotacion": "RAD. 05001400301020260096400 - DESCORRE TRASLADO DE LA CONTESTACION",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2026-10-14T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 11
+      },
+      {
+        "idRegActuacion": 3988776081,
+        "llaveProceso": "05001400301020260096400",
+        "consActuacion": 126392487,
+        "fechaActuacion": "2026-10-14T00:00:00",
+        "actuacion": "Agregar Memorial",
+        "anotacion": "RAD. 05001400301020260096400 - DESCORRE TRASLADO DE LA CONTESTACION",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2026-10-14T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 11
+      },
+      {
+        "idRegActuacion": 3988671321,
+        "llaveProceso": "05001400301020260096400",
+        "consActuacion": 126384641,
+        "fechaActuacion": "2026-10-14T00:00:00",
+        "actuacion": "Agregar Memorial",
+        "anotacion": "RAD. 05001400301020260096400 - DESCORRE TRASLADO RECURSO",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2026-10-14T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 11
+      },
+      {
+        "idRegActuacion": 3988667971,
+        "llaveProceso": "05001400301020260096400",
+        "consActuacion": 126384306,
+        "fechaActuacion": "2026-10-14T00:00:00",
+        "actuacion": "Agregar Memorial",
+        "anotacion": "RAD. 05001400301020260096400 - DESCORRE TRASLADO RECURSO",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2026-10-14T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 11
+      },
+      {
         "idRegActuacion": 3979413541,
         "llaveProceso": "05001400301020260096400",
         "consActuacion": 125806334,
@@ -185866,7 +186006,7 @@
         "fechaRegistro": "2026-09-30T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 7
+        "cant": 11
       },
       {
         "idRegActuacion": 3979413531,
@@ -185880,7 +186020,7 @@
         "fechaRegistro": "2026-09-30T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": true,
-        "cant": 7
+        "cant": 11
       },
       {
         "idRegActuacion": 3962025571,
@@ -185894,7 +186034,7 @@
         "fechaRegistro": "2026-09-01T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 7
+        "cant": 11
       },
       {
         "idRegActuacion": 3958902381,
@@ -185908,7 +186048,7 @@
         "fechaRegistro": "2026-08-26T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 7
+        "cant": 11
       },
       {
         "idRegActuacion": 3957826551,
@@ -185922,7 +186062,7 @@
         "fechaRegistro": "2026-08-24T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 7
+        "cant": 11
       },
       {
         "idRegActuacion": 3957826541,
@@ -185936,7 +186076,7 @@
         "fechaRegistro": "2026-08-24T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": true,
-        "cant": 7
+        "cant": 11
       },
       {
         "idRegActuacion": 3933023731,
@@ -185950,7 +186090,7 @@
         "fechaRegistro": "2026-07-09T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": true,
-        "cant": 7
+        "cant": 11
       }
     ],
     "3285515471": [],
@@ -186461,6 +186601,34 @@
     ],
     "3289268371": [
       {
+        "idRegActuacion": 3988689161,
+        "llaveProceso": "05001400301520260123300",
+        "consActuacion": 126385435,
+        "fechaActuacion": "2026-10-15T00:00:00",
+        "actuacion": "Fijacion Estado",
+        "anotacion": "",
+        "fechaInicial": "2026-10-15T00:00:00",
+        "fechaFinal": "2026-10-15T00:00:00",
+        "fechaRegistro": "2026-10-14T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 3
+      },
+      {
+        "idRegActuacion": 3988689151,
+        "llaveProceso": "05001400301520260123300",
+        "consActuacion": 126385434,
+        "fechaActuacion": "2026-10-14T00:00:00",
+        "actuacion": "Auto Inadmite  Auto No Avoca",
+        "anotacion": "",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2026-10-14T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 3
+      },
+      {
         "idRegActuacion": 3957476131,
         "llaveProceso": "05001400301520260123300",
         "consActuacion": 123991591,
@@ -186472,7 +186640,7 @@
         "fechaRegistro": "2026-08-24T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": true,
-        "cant": 1
+        "cant": 3
       }
     ],
     "3290478551": [],
