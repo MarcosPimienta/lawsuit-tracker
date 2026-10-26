@@ -104,7 +104,7 @@
       "fechaUltimaActuacion": "2023-02-22T00:00:00",
       "despacho": "JUZGADO 033 CIVIL MUNICIPAL DE CALI ",
       "departamento": "VALLE DEL CAUCA",
-      "sujetosProcesales": "Demandante: FUNDACION CODERISE | Demandado: JUAN JOSE DELGADO | Demandado: DORA ZAMBRANO ",
+      "sujetosProcesales": "Demandante: FUNDACION CODERISE | Demandado: DORA ZAMBRANO | Demandado: JUAN JOSE DELGADO ",
       "esPrivado": false,
       "cantFilas": -1
     },
@@ -9329,7 +9329,7 @@
       "idConexion": 263,
       "llaveProceso": "11001400305820240025400",
       "fechaProceso": "2024-03-12T00:00:00",
-      "fechaUltimaActuacion": "2026-10-14T00:00:00",
+      "fechaUltimaActuacion": "2026-10-20T00:00:00",
       "despacho": "JUZGADO 058 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: LUMNI COLOMBIA SAS | Demandado: SAMUEL LOPEZ MACIAS | Demandado: ANDRES GERARDO LOPEZ ",
@@ -135309,20 +135309,6 @@
     ],
     "1831741224": [
       {
-        "idRegActuacion": 1293555574,
-        "llaveProceso": "11001400305820240025400",
-        "consActuacion": 90,
-        "fechaActuacion": "2026-10-14T00:00:00",
-        "actuacion": "Al despacho",
-        "anotacion": null,
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2026-10-14T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 90
-      },
-      {
         "idRegActuacion": 1293102614,
         "llaveProceso": "11001400305820240025400",
         "consActuacion": 89,
@@ -135334,7 +135320,7 @@
         "fechaRegistro": "2026-10-20T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 90
+        "cant": 89
       },
       {
         "idRegActuacion": 1292733074,
@@ -135348,7 +135334,7 @@
         "fechaRegistro": "2026-10-16T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 90
+        "cant": 89
       },
       {
         "idRegActuacion": 1291852184,
@@ -135362,7 +135348,7 @@
         "fechaRegistro": "2026-10-09T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 90
+        "cant": 89
       },
       {
         "idRegActuacion": 1288952044,
@@ -135376,7 +135362,7 @@
         "fechaRegistro": "2026-09-17T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 90
+        "cant": 89
       },
       {
         "idRegActuacion": 1288248034,
@@ -135390,7 +135376,7 @@
         "fechaRegistro": "2026-09-11T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 90
+        "cant": 89
       },
       {
         "idRegActuacion": 1288248024,
@@ -135404,7 +135390,7 @@
         "fechaRegistro": "2026-09-11T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 90
+        "cant": 89
       },
       {
         "idRegActuacion": 1287341864,
@@ -135418,7 +135404,7 @@
         "fechaRegistro": "2026-09-02T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 90
+        "cant": 89
       },
       {
         "idRegActuacion": 1285454254,
@@ -135432,7 +135418,7 @@
         "fechaRegistro": "2026-08-18T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 90
+        "cant": 89
       },
       {
         "idRegActuacion": 1285454244,
@@ -135446,7 +135432,7 @@
         "fechaRegistro": "2026-08-18T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 90
+        "cant": 89
       },
       {
         "idRegActuacion": 1278421524,
@@ -135460,7 +135446,7 @@
         "fechaRegistro": "2026-07-16T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 90
+        "cant": 89
       },
       {
         "idRegActuacion": 1277144044,
@@ -135474,7 +135460,7 @@
         "fechaRegistro": "2026-07-07T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 90
+        "cant": 89
       },
       {
         "idRegActuacion": 1276662224,
@@ -135488,7 +135474,7 @@
         "fechaRegistro": "2026-07-03T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 90
+        "cant": 89
       },
       {
         "idRegActuacion": 1251455664,
@@ -135502,7 +135488,7 @@
         "fechaRegistro": "2025-12-04T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 90
+        "cant": 89
       },
       {
         "idRegActuacion": 1250531344,
@@ -135516,7 +135502,7 @@
         "fechaRegistro": "2025-11-27T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 90
+        "cant": 89
       },
       {
         "idRegActuacion": 1250531334,
@@ -135530,7 +135516,7 @@
         "fechaRegistro": "2025-11-27T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 90
+        "cant": 89
       },
       {
         "idRegActuacion": 1250531324,
@@ -135544,7 +135530,7 @@
         "fechaRegistro": "2025-11-27T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 90
+        "cant": 89
       },
       {
         "idRegActuacion": 1250531314,
@@ -135558,7 +135544,7 @@
         "fechaRegistro": "2025-11-27T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 90
+        "cant": 89
       },
       {
         "idRegActuacion": 1250531304,
@@ -135572,7 +135558,7 @@
         "fechaRegistro": "2025-11-27T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 90
+        "cant": 89
       },
       {
         "idRegActuacion": 1250531294,
@@ -135586,7 +135572,7 @@
         "fechaRegistro": "2025-11-27T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 90
+        "cant": 89
       },
       {
         "idRegActuacion": 1250531284,
@@ -135600,7 +135586,7 @@
         "fechaRegistro": "2025-11-27T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 90
+        "cant": 89
       },
       {
         "idRegActuacion": 1250531274,
@@ -135614,7 +135600,7 @@
         "fechaRegistro": "2025-11-27T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 90
+        "cant": 89
       },
       {
         "idRegActuacion": 1244201624,
@@ -135628,7 +135614,7 @@
         "fechaRegistro": "2025-10-09T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 90
+        "cant": 89
       },
       {
         "idRegActuacion": 1240896424,
@@ -135642,7 +135628,7 @@
         "fechaRegistro": "2025-09-16T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 90
+        "cant": 89
       },
       {
         "idRegActuacion": 1240051464,
@@ -135656,7 +135642,7 @@
         "fechaRegistro": "2025-09-10T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 90
+        "cant": 89
       },
       {
         "idRegActuacion": 1239932094,
@@ -135670,7 +135656,7 @@
         "fechaRegistro": "2025-09-10T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 90
+        "cant": 89
       },
       {
         "idRegActuacion": 1239850974,
@@ -135684,7 +135670,7 @@
         "fechaRegistro": "2025-09-09T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 90
+        "cant": 89
       },
       {
         "idRegActuacion": 1239333014,
@@ -135698,7 +135684,7 @@
         "fechaRegistro": "2025-09-04T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 90
+        "cant": 89
       },
       {
         "idRegActuacion": 1239333004,
@@ -135712,7 +135698,7 @@
         "fechaRegistro": "2025-09-04T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 90
+        "cant": 89
       },
       {
         "idRegActuacion": 1239332994,
@@ -135726,7 +135712,7 @@
         "fechaRegistro": "2025-09-04T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 90
+        "cant": 89
       },
       {
         "idRegActuacion": 1239332984,
@@ -135740,7 +135726,7 @@
         "fechaRegistro": "2025-09-04T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 90
+        "cant": 89
       },
       {
         "idRegActuacion": 1234627994,
@@ -135754,7 +135740,7 @@
         "fechaRegistro": "2025-07-31T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 90
+        "cant": 89
       },
       {
         "idRegActuacion": 1230991824,
@@ -135768,7 +135754,7 @@
         "fechaRegistro": "2025-07-07T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 90
+        "cant": 89
       },
       {
         "idRegActuacion": 1227661084,
@@ -135782,7 +135768,7 @@
         "fechaRegistro": "2025-06-10T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 90
+        "cant": 89
       },
       {
         "idRegActuacion": 1226903524,
@@ -135796,7 +135782,7 @@
         "fechaRegistro": "2025-06-04T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 90
+        "cant": 89
       },
       {
         "idRegActuacion": 1225752754,
@@ -135810,7 +135796,7 @@
         "fechaRegistro": "2025-05-26T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 90
+        "cant": 89
       },
       {
         "idRegActuacion": 1224292194,
@@ -135824,7 +135810,7 @@
         "fechaRegistro": "2025-05-15T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 90
+        "cant": 89
       },
       {
         "idRegActuacion": 1223152944,
@@ -135838,7 +135824,7 @@
         "fechaRegistro": "2025-05-07T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 90
+        "cant": 89
       },
       {
         "idRegActuacion": 1222206514,
@@ -135852,7 +135838,7 @@
         "fechaRegistro": "2025-05-02T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 90
+        "cant": 89
       },
       {
         "idRegActuacion": 1221328584,
@@ -135866,7 +135852,21 @@
         "fechaRegistro": "2025-04-22T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 90
+        "cant": 89
+      },
+      {
+        "idRegActuacion": 1221328574,
+        "llaveProceso": "11001400305820240025400",
+        "consActuacion": 50,
+        "fechaActuacion": "2025-04-22T00:00:00",
+        "actuacion": "Auto ordena correr traslado",
+        "anotacion": "se corre traslado de nulidad por 3 dias ",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2025-04-22T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 89
       }
     ],
     "1834226694": [
