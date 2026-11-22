@@ -8789,7 +8789,7 @@
       "idConexion": 320,
       "llaveProceso": "05001400300320260046900",
       "fechaProceso": "2026-04-06T00:00:00",
-      "fechaUltimaActuacion": "2026-10-16T00:00:00",
+      "fechaUltimaActuacion": "2026-11-23T00:00:00",
       "despacho": "JUZGADO 003 CIVIL MUNICIPAL DE MEDELLÍN ",
       "departamento": "ANTIOQUIA",
       "sujetosProcesales": "Demandante/accionante: Fideicomiso Academia de Software de Cali  \r\n\t\t\t\t\t | Demandado/indiciado/causante: JUAN CAMILO LEMOS\r\n\t\t\t\t\tGIL | Demandado/indiciado/causante: SANDRA LORENA HOYOS\r\n\t\t\t\t\tRODRIGUEZ | Defensor Privado: andrea tatiana uribe\r\n\t\t\t\t\tmariño ",
@@ -159446,6 +159446,34 @@
     ],
     "3247989631": [
       {
+        "idRegActuacion": 4010751571,
+        "llaveProceso": "05001400300320260046900",
+        "consActuacion": 128065360,
+        "fechaActuacion": "2026-11-23T00:00:00",
+        "actuacion": "Fijacion Estado",
+        "anotacion": "",
+        "fechaInicial": "2026-11-23T00:00:00",
+        "fechaFinal": "2026-11-23T00:00:00",
+        "fechaRegistro": "2026-11-20T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 7
+      },
+      {
+        "idRegActuacion": 4010751561,
+        "llaveProceso": "05001400300320260046900",
+        "consActuacion": 128065359,
+        "fechaActuacion": "2026-11-20T00:00:00",
+        "actuacion": "Auto Decide",
+        "anotacion": "Accede a retiro de demanda",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2026-11-20T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 7
+      },
+      {
         "idRegActuacion": 3990607861,
         "llaveProceso": "05001400300320260046900",
         "consActuacion": 126542396,
@@ -159457,7 +159485,7 @@
         "fechaRegistro": "2026-10-18T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 5
+        "cant": 7
       },
       {
         "idRegActuacion": 3990607811,
@@ -159471,7 +159499,7 @@
         "fechaRegistro": "2026-10-18T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 5
+        "cant": 7
       },
       {
         "idRegActuacion": 3985285071,
@@ -159485,7 +159513,7 @@
         "fechaRegistro": "2026-10-08T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 5
+        "cant": 7
       },
       {
         "idRegActuacion": 3985285061,
@@ -159499,7 +159527,7 @@
         "fechaRegistro": "2026-10-08T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": false,
-        "cant": 5
+        "cant": 7
       },
       {
         "idRegActuacion": 3448568061,
@@ -159513,7 +159541,7 @@
         "fechaRegistro": "2026-04-06T00:00:00",
         "codRegla": "00                              ",
         "conDocumentos": true,
-        "cant": 5
+        "cant": 7
       }
     ],
     "3248011751": [
